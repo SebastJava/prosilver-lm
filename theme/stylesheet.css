@@ -10,6 +10,8 @@
 
 /* colours.css_________________________________________________________________________________________________*/
 
+html, body { background-color: #FFF; }
+
 .headerbar, .forumbg {
 	background-color: #1DC973;
 	background-image: -webkit-linear-gradient(left, #1DC973 10%, #1F9EDE 90%);
@@ -20,6 +22,8 @@
 .site_logo { background-image: none; }
 
 /* common.css__________________________________________________________________________________________________*/
+
+.wrap { border: none; }
 
 .logo { padding: 5px; }
 
