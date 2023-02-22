@@ -10,38 +10,39 @@
 
 /* colours.css_________________________________________________________________________________________________*/
 
-html, body { background-color: #FFF; }
+html, body, .wrap { background-color: #F2F2F2; }
 
-.headerbar, .forumbg {
-	background-color: #1DC973;
-	background-image: -webkit-linear-gradient(left, #1DC973 10%, #1F9EDE 90%);
-	background-image: linear-gradient(to right, #1DC973 10%, #1F9EDE 90%);
-	background-repeat: repeat-x;
+.headerbar {
+	background-color: #1F9EDE;
+	background-image: url("./images/banner.svg");
+	background-repeat: no-repeat;
 }
-
-.site_logo { background-image: none; }
+.navbar { background-color: #9DDAFA; }
+.forumbg, .forabg { background-color: #1F9EDE; background-image: none; }
+.bg1, .bg2 { background-color: #FFF; }
+.site_logo { background-image: url("./images/site_logo.svg"); }
+ul.forums { background-color: #FFF; background-image: none; }
+.post:target .content { color: #333333; }
 
 /* common.css__________________________________________________________________________________________________*/
 
 .wrap { border: none; }
-
-.logo { padding: 5px; }
-
-/*  700px (responsive threshold width) - 56px (wrap) - 10px (headerbar) = 634px
-    634px x 65% = 412 px (site-description width) - (5+5) px padding = 402px site_logo width
-    site_logo height = 216×402÷1724 = 50.367 px  */
-.site_logo { width: 402px; height: auto; }
 
 .headerbar {
 	margin-bottom: 0px;
 	padding: 5px;
 	border-radius: 7px 7px 0px 0px;
 }
-
-.navbar {
+.navbar:not(.page-footer .navbar) {
 	padding: 5px 10px 0px 10px;
 	border-radius: 0px 0px 7px 7px;
 }
+.logo { padding: 5px; }
+
+/*  700px (responsive threshold width) - 56px (wrap) - 10px (headerbar) = 634px
+    634px x 65% = 412 px (site-description width) - (5+5) px padding = 402px site_logo width
+    site_logo height = 216×402÷1724 = 50.367 px  */
+.logo, .site_logo { width: 402px; height: 52px; }
 
 /* forms.css___________________________________________________________________________________________________*/
 
