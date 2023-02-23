@@ -12,13 +12,21 @@
 
 html, body, .wrap { background-color: #F2F2F2; }
 
-.headerbar {
-	background-color: #1F9EDE;
+#page-header {
+	background-color: #1DC881;
 	background-image: url("./images/banner.svg");
+	background-repeat: no-repeat;
+	border-radius: 7px;
+}
+#page-header .navbar { background-color: rgba(255,255,255,0.5); }
+
+.headerbar {
+	background-color: transparent;
+	background-image: none;
 	background-repeat: no-repeat;
 }
 .site_logo { background-image: url("./images/site_logo.svg"); }
-.navbar { background-color: #D8D8D8; }
+.navbar { background-color: #8FCFEF; }
 .forumbg, .forabg { background-color: #1F9EDE; background-image: none; }
 .bg1, .bg2 { background-color: #FFF; }
 ul.forums { background-color: #FFF; background-image: none; }
@@ -51,15 +59,21 @@ ul.forums { background-color: #FFF; background-image: none; }
 /* responsive.css______________________________________________________________________________________________*/
 
 @media (max-width: 700px) {
+
+	#page-header {
+		border-radius: 0;
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+	.site-description { height: 47px; }
 	.logo {
 		/* change display value from none to inline-block to show logo */
 		display: inline-block;
 		float: none;
-		padding: 0px;
+		padding: 5px;
 	}
-
-	.site_logo { max-width: 300px; }
-
+	.logo, .site_logo { width: 300px; height: 37px; }
+	.site_logo { background-image: url("./images/site_logo-responsive-700.svg"); }
 	.headerbar + .navbar { margin-top: 0px; }
 	.headerbar, .navbar { border-radius: 0px; }
 }
