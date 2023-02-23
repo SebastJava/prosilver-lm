@@ -17,10 +17,10 @@ html, body, .wrap { background-color: #F2F2F2; }
 	background-image: url("./images/banner.svg");
 	background-repeat: no-repeat;
 }
-.navbar { background-color: #9DDAFA; }
+.site_logo { background-image: url("./images/site_logo.svg"); }
+.navbar { background-color: #D8D8D8; }
 .forumbg, .forabg { background-color: #1F9EDE; background-image: none; }
 .bg1, .bg2 { background-color: #FFF; }
-.site_logo { background-image: url("./images/site_logo.svg"); }
 ul.forums { background-color: #FFF; background-image: none; }
 .post:target .content { color: #333333; }
 
@@ -37,7 +37,7 @@ ul.forums { background-color: #FFF; background-image: none; }
 	padding: 5px 10px 0px 10px;
 	border-radius: 0px 0px 7px 7px;
 }
-.logo { padding: 5px; }
+.logo { padding: 15px; }
 
 /*  700px (responsive threshold width) - 56px (wrap) - 10px (headerbar) = 634px
     634px x 65% = 412 px (site-description width) - (5+5) px padding = 402px site_logo width
@@ -46,7 +46,7 @@ ul.forums { background-color: #FFF; background-image: none; }
 
 /* forms.css___________________________________________________________________________________________________*/
 
-.search-header { margin-top: 22px; }
+.search-header { margin-top: 32px; }
 
 /* responsive.css______________________________________________________________________________________________*/
 
