@@ -16,3 +16,11 @@ NOTE: This Prosilver-lm is just a small child based on the Prosilver parent. You
 1. The smilies should be updated too! The smilies are located at https://forums.linuxmint.com/images/smilies.
 2. You could replace the default smilies with these new ones here: https://www.phpbb.com/customise/db/style/flatui_smilies/ Just follow the quick and easy instructions from there. Having trouble? The procedure is made even more simple now. You should be able to find my update topic about this procedure on https://www.phpbb.com/customise/db/style/flatui_smilies/support.
 
+### Favicon update
+The favicon is already created. Using the simple "Lm" version, without any background, makes it not so small for the classic 16x16 pixels size.  
+
+Using https://realfavicongenerator.net/ a bunch of various files got created, for all browsers on all platforms. These files are contained in `favicon/favicon_package_v0.16.zip`.  
+
+1. Extract this package in the root of your web site. If your site is `http://www.example.com`, you should be able to access a file named `http://www.example.com/favicon.ico`.
+2. The `<head>` section is already edited in `template/overall_header.html`. No other action required.
+
