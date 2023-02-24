@@ -24,3 +24,15 @@ Using https://realfavicongenerator.net/ a bunch of various files got created, fo
 1. Extract this package in the root of your web site. If your site is `http://www.example.com`, you should be able to access a file named `http://www.example.com/favicon.ico`.
 2. The `<head>` section is already edited in `template/overall_header.html`. No other action required.
 
+### Documentation and credits
+Many information sources and tutorials contributed into creating this Prosilver-lm:
+
+* https://www.phpbb.com
+* https://www.phpbb.com/styles/installing/
+* https://www.phpbb.com/styles/create/
+* https://www.phpbb.com/support/docs/en/3.3/kb/
+* https://www.phpbb.com/support/docs/en/3.2/kb/article/installing-and-setting-up-your-own-web-server/
+* https://linuxhint.com/how-to-install-xampp-server-on-linux-mint-20/
+* https://www.w3schools.com/css/default.asp
+* https://www.w3schools.com/cssref/index.php
+* And more, much more: https://www.google.com/ :)
