@@ -29,7 +29,7 @@ html, body, .wrap { background-color: #F2F2F2; }
 .navbar { background-color: #8FCFEF; }
 .forumbg, .forabg { background-color: #1F9EDE; background-image: none; }
 .bg1, .bg2 { background-color: #FFF; }
-ul.forums { background-color: #FFF; background-image: none; }
+ul.forums { background-color: #E7F7FF; background-image: none; }
 .post:target .content { color: #333333; }
 .panel { background-color: #E7F7FF; color: #2D2D2D; }
 
@@ -38,6 +38,16 @@ dl.file { background-color: #E7F7FF; }
 
 .attach-image img { border-color: lightgray; }
 dl.thumbnail img { border-color: lightgray; }
+
+.tabs .activetab > a,
+.tabs .activetab > a:hover {
+	background-color: #E7F7FF; /* Old browsers */ /* FF3.6+ */
+	background-image: none;
+	border-color: #CADCEB;
+	border-bottom: none;
+	box-shadow: none;
+	color: #333333;
+}
 
 /* common.css__________________________________________________________________________________________________*/
 
