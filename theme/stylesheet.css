@@ -31,7 +31,12 @@ html, body, .wrap { background-color: #F2F2F2; }
 .bg1, .bg2 { background-color: #FFF; }
 ul.forums { background-color: #FFF; background-image: none; }
 .post:target .content { color: #333333; }
-.panel { background-color: #D2ECF9; color: #242424; }
+.panel { background-color: #E7F7FF; color: #2D2D2D; }
+
+/* "dl.file" includes both file (img or link) and <dd>Viewed or Downloaded nn times</dd> */
+dl.file { background-color: #E7F7FF; }
+
+.attach-image img, .thumbnail img { border-color: lightgray; }
 
 /* common.css__________________________________________________________________________________________________*/
 
@@ -78,3 +83,9 @@ ul.forums { background-color: #FFF; background-image: none; }
 	.headerbar + .navbar { margin-top: 0px; }
 	.headerbar, .navbar { border-radius: 0px; }
 }
+
+/* IMG, DOWNLOAD ALIGN CENTER EXPERIMENT */
+
+img.postimage { display: block; margin-left: auto; margin-right: auto; }
+dl.file { text-align: center; }
+.thumbnail a { display: block; }
