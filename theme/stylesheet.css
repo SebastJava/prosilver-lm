@@ -48,6 +48,7 @@ dl.thumbnail img { border-color: lightgray; }
 	box-shadow: none;
 	color: #333333;
 }
+.panel-container .panel { background-color: transparent; }
 
 /* common.css__________________________________________________________________________________________________*/
 
