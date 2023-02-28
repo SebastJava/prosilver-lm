@@ -2,23 +2,36 @@
 
 This Prosilver-lm is a custom tailored new look and feel for the LinuxMint forums. The LinuxMint forums are powered by [phpBB®](https://www.phpbb.com/) and this Prosilver-lm is a phpBB theme. This Prosilver-lm is what we call a "child" theme. It is based on the Prosilver parent theme. The Prosilver theme is the standard, default theme on phpBB. It is trustworthy. And this child theme here is just a small package. It only contains the modifications made on top of this standard and trustworthy Prosilver theme.
 
-This Prosilver-lm being just a small child theme, this means it can easily and quickly be reviewed. And tested. And approved. And it won't be hard to merge the occasional updates coming from the parent theme. This child and parent theme structure is the most efficient and recommended way to work, as stated by phpBB. You can read all about it on:
+This Prosilver-lm being just a small child theme, this means it can easily and quickly be reviewed. And tested. And approved. And it won't be hard to merge the occasional updates coming from the parent theme. This child and parent theme structure is the most efficient and recommended way to work, as stated by phpBB. You can read all about phpBB theme creation on:
 
 * https://www.phpbb.com/styles/installing/#a-editing (introduction)
 * https://www.phpbb.com/styles/create/ (complete tutorial)
 
-### Design improvements
+### Design improvements: colours
 
-* Logo and "linuxmint forums" are grouped together into one single SVG file. That's precision typography and alignments based on a variable weight [Exo 2 font](https://fonts.google.com/specimen/Exo+2?query=exo&vfonly=true). But don't worry, that text got converted to paths, so there is no need to download any font.
+Colours are frequencies and energies. Different colours carry different values and moods. I think it is rather impossible to find a green colour that is both nice and comfortable, as a widespread colour background.
+
+In my humble opinion, green colours can either be nice, vibrant, and thus become a source of fatigue, or be made of very low saturation level and darkened, and thus be turned into a comfortable background colour. But then it gets a bit sad looking... Just try to find a good green background having a  contrast ratio of at least 3, for a white foreground text.
+
+I find it works much better with blue tones. The contrasts are naturally better, and the blue tones looks nice at pretty much any saturation levels, high or low. All this to briefly summarize the colour choices behind this Prosilver-lm. White, grey and blue tones and colours. It is about getting inspired by the skies, the light clouds, the water, and neutral white and greys.
+
+Of course, you also need to be unique, different. And there comes this nice green background behind the logo that makes those forums unique. You can't miss it. And that's all you need! And that green is carefully chosen too, ranging in higher colour hues... And it is not too big, not too small, and it just gets out of your way as you scroll down the page.
+
+In fact, all the different backgrounds and foregrounds received a lot of attention and work. It got tested, modified, and retested and modified over and over again. The background body is made of a light and neutral grey. And All the forums posts are made of the same white background and dark grey foreground text. Thus, the contrast is always the best one, very similar to the Mint-Y theme: `#333333` on `#FFFFFF`. And the focus is naturally driven onto the inner posts, with their white backgrounds, as opposed to the outer grey body.
+
+### Design improvements: page header and logo
+
+* The "Lm" logo and "linuxmint forums" text are grouped together into one single SVG file. That's precision typography and alignments based on a variable weight [Exo 2 font](https://fonts.google.com/specimen/Exo+2?query=exo&vfonly=true). But don't worry, that text got converted to paths, so there is no need to download any font. No compatibility issues.
 * The site name and site description are not getting displayed anymore. So there is no redundancy with the logo, which already contains this nice and precise "linuxmint forums" typography.
-* The logo and custom typography gets displayed on every devices, including on cellular phones, with a reduced size for those, of course.
+* The logo and custom typography gets displayed on every devices, including on cellular phones, but with a reduced size for those, of course.
 * Those two "headerbar" and "navbar", on top of every page, are now nicely grouped together. This makes it look less modular. And this grouping is further enhanced with a common background "banner". But this "navbar" gets a semi-transparent white overlay, for a better readability.
-* This background banner is made of abstract rings. It fits with the logo. This could evolve from time to time, but i would like to keep it abstract, simple, uncluttered.
-* The colours received a lot of attention and work. The background body is made of a light and neutral grey. And All the forums posts are made of the same white background and dark grey foreground text. Thus, the contrast is always the best one, very similar to the Mint-Y theme: `#333333` on `#FFFFFF`. And the focus is naturally driven onto the inner posts, with their white backgrounds, as opposed to the outer light grey body.
-* Different colours carry different values and moods. I think it is very hard to get a green colour that is both nice and comfortable, not too vibrant and having a good contrast. It works much better with some blue tones: nice, not too vibrant, and with sufficient contrast. Thus, most of this Prosilver-lm is made of white, grey and blue. But there is a nice green background behind the logo that makes those forums unique. You can't miss it. And that's all you need! And that green is carefully chosen too...
-* The posted pictures are all aligned to the middle, including the thumbnails. Before, it felt unbalanced, all the weight was on the left.
+* This background banner is made of abstract rings. It fits with the logo. This could evolve from time to time, but i will probably keep it abstract, simple, uncluttered.
+
+### Design improvements: miscellaneous
+
 * There are less colour gradients being used. It feels lighter, uncluttered, zen.
 * The URL links got a bit darker, stronger.
+* The posted pictures are all aligned to the middle, including the thumbnails. Before, it felt unbalanced, all the weight was on the left.
 
 ### Local tests (optional)
 
@@ -31,13 +44,14 @@ If you want to test this Prosilver-lm on your local computer before uploading it
 
 1. BACKUP everything. The most important is your entire database.
 1. Update your phpBB forum software to the latest version: https://www.phpbb.com/downloads/3.3/update.
-1. Make sure your `styles/prosilver` directory is unaltered. You should never modify this one, but create child themes instead. Else, just replace it with a fresh extract from the `phpBB-3.3.10.zip`.
+1. Make sure your `styles/prosilver` directory is unaltered. You should never modify this one, but create child themes instead. Else, just replace it with a fresh extract from the `phpBB-latest-version.zip`.
 1. Download or clone this prosilver-lm directory from here on [SebastJava/prosilver-lm](https://github.com/SebastJava/prosilver-lm). (Click on that green "Code" button on top-right ↗)
 1. Upload it onto your server at https://forums.linuxmint.com/styles/prosilver-lm/ (SFTP connection and administrator username and password required.)
 1. Once the style is uploaded, navigate to the board's ACP to Customize -> Install Styles. You should see your recently uploaded styles listed (assuming you uploaded it to the correct location and the style is valid), with an option to "Install style". Simply click it and the installation is complete! [More info here](https://www.phpbb.com/styles/installing/).
 1. In ACP > Customize > Styles section, you should deactivate the parent Prosilver theme. This way, this parent is still available for this Prosilver-lm to work, but the forum users cannot choose this Prosilver parent, so they won't end up with the phpBB logo replacing the LinuxMint logo...
+1. You should also go to ACP > General > Board settings section, and check your Board style settings.
 
-The official installation instructions can be found [here](https://www.phpbb.com/styles/installing/).
+The official and complete installation instructions can be found [here on phpBB](https://www.phpbb.com/styles/installing/).
 
 ### FlatUI Smilies update (for LinuxMint administrators only!)
 
@@ -50,7 +64,7 @@ The favicon is already created. Using the simple "Lm" version, without any backg
 Using https://realfavicongenerator.net/ a bunch of various files got created, for all browsers on all platforms. These files are contained in `favicon/favicon_package_v0.16.zip`.  
 
 1. Extract this package into the root of your web site. If your site is `http://www.example.com`, you should be able to access a file named `http://www.example.com/favicon.ico`.
-1. The `<head>` section is already edited in `template/overall_header.html`. No other actions required.
+1. The `<head>` section is already edited in `template/overall_header.html`, for all these favicons links. No other actions required.
 
 ### Documentation and credits
 Many information sources and tutorials helped into creating this Prosilver-lm:
