@@ -39,7 +39,7 @@ ul.forums { background-color: #F2F2F2; background-image: none; }
 .panel { background-color: #CFEDFC; color: #333333; } /* Cloudy blue */
 
 /* "dl.file" includes both file (img or link) and <dd>Viewed or Downloaded nn times</dd> */
-dl.file { background-color: #CFEDFC; } /* Cloudy blue */
+dl.file, dl.thumbnail { background-color: #CFEDFC; } /* Cloudy blue */
 .attach-image img { border-color: transparent; }
 dl.thumbnail img { border-color: lightgray; }
 
@@ -113,5 +113,5 @@ li.row dd { border-left-color: #CCCCCC; }
 /* IMG, DOWNLOAD ALIGN CENTER EXPERIMENT */
 
 img.postimage { display: block; margin-left: auto; margin-right: auto; }
-dl.file { text-align: center; }
+dl.file, dl.thumbnail { text-align: center; }
 .thumbnail a { display: block; }
