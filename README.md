@@ -7,6 +7,10 @@ This Prosilver-lm being just a small child theme, this means it can easily and q
 * https://www.phpbb.com/styles/installing/#a-editing (introduction)
 * https://www.phpbb.com/styles/create/ (complete tutorial)
 
+See this Prosilver-lm for real ! Visit https://sebastjava.com/forums/  
+
+This is a forum showcase, powered by phpBB and featuring this Prosilver-lm. But that's only for a limited time. This website is just a temporary one and will probably be deleted on Jan 21, 2024.
+
 ### Design improvements: colours
 
 Colours are frequencies and energies. Different colours carry different values and moods. I think it is rather impossible to find a green colour that is both nice and comfortable, as a widespread colour background.
