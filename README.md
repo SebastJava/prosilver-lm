@@ -1,3 +1,5 @@
+![](preview/Prosilver-lm-1280px-compare.png)
+
 # Prosilver-lm: a custom phpBB theme for the LinuxMint forums
 
 This Prosilver-lm is a custom tailored new look and feel for the LinuxMint forums. The LinuxMint forums are powered by [phpBB®](https://www.phpbb.com/) and this Prosilver-lm is a phpBB theme. This Prosilver-lm is what we call a "child" theme. It is based on the Prosilver parent theme. The Prosilver theme is the standard, default theme on phpBB. It is trustworthy. And this child theme here is just a small package. It only contains the modifications made on top of this standard and trustworthy Prosilver theme.
@@ -7,7 +9,7 @@ This Prosilver-lm being just a small child theme, this means it can easily and q
 * https://www.phpbb.com/styles/installing/#a-editing (introduction)
 * https://www.phpbb.com/styles/create/ (complete tutorial)
 
-See this Prosilver-lm for real ! Visit https://sebastjava.com/forums/  
+**See this Prosilver-lm for real ! Visit** https://sebastjava.com/forums/  
 
 This is a forum showcase, powered by phpBB and featuring this Prosilver-lm. But that's only for a limited time. This website is just a temporary one and will probably be deleted on Jan 21, 2024.
 
