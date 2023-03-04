@@ -112,7 +112,7 @@ li.row dd { border-left-color: #CCCCCC; }
 
 /* IMG, DOWNLOAD ALIGN CENTER EXPERIMENT */
 
-div.inline-attachment { margin-top: 1.4em; margin-bottom: 2.1em; }
+div.inline-attachment { margin-top: 1.4em; margin-bottom: 2.0em; }
 img.postimage { display: block; margin-left: auto; margin-right: auto; }
 dl.file, dl.thumbnail { text-align: center; }
 .thumbnail a { display: block; }
