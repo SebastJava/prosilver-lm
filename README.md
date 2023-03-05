@@ -71,7 +71,7 @@ If you want to test this Prosilver-lm on your local computer before uploading it
 
 The official and complete installation instructions can be found [here on phpBB](https://www.phpbb.com/styles/installing/).
 
-### FlatUI Smilies update (for LinuxMint administrators only!)
+### FlatUI Smilies update
 
 1. The smilies could be updated too! The smilies are located at https://forums.linuxmint.com/images/smilies.
 2. You could replace the default smilies with these new ones here: https://www.phpbb.com/customise/db/style/flatui_smilies/ Just follow the quick and easy instructions from there. Having trouble? The procedure is made even more simple now. You should be able to find my update topic about this procedure on https://www.phpbb.com/customise/db/style/flatui_smilies/support.
