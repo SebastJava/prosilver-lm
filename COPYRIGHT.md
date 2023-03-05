@@ -7,7 +7,7 @@ It is based on the prosilver theme, the default theme on phpBB3.
 This prosilver-lm is essentially a small stylesheet override onto prosilver.  
 
 **Style name:**		prosilver-lm  
-**Based on style:**	prosilver  
+**Parent style:**	prosilver  
 
 **Prosilver**  
 	Original author:	Tom Beddard ( http://www.subblue.com/ )  
