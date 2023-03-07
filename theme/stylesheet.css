@@ -12,9 +12,12 @@
 
 html, body, .wrap { background-color: #F0F0F0; }
 
+/*  https://linuxmint.com/ main banner: linear-gradient(150deg, #69B53F 0%, #2ab9a5 100%);
+    Forums: linear-gradient(90deg, #66B73D 0%, #25B0B1 100%);
+    #66B73D = HSL 100,50,48 -> #25B0B1 = HSL 180,65,42*/
 #page-header {
-	background-color: #1F9EDE; /* Water blue */
-	background-image: url("./images/banner.svg");
+	background-color: #68C174; /* Soft green */
+	background-image: url("./images/banner.svg"), linear-gradient(90deg, #66B73D 0%, #25B0B1 100%);
 	background-repeat: no-repeat;
 	border-radius: 7px;
 }
@@ -27,7 +30,7 @@ html, body, .wrap { background-color: #F0F0F0; }
 }
 .site_logo { background-image: url("./images/site_logo.svg"); }
 .navbar { background-color: #8FCFEF; } /* Light blue */
-.forumbg, .forabg { background-color: #1F9EDE; background-image: none; } /* Water blue */
+.forumbg, .forabg { background-color: #68C174; background-image: none; } /* Soft green */
 
 .bg1 { background-color: #FFF; }
 .bg2 { background-color: #F2F2F2; } /* Pale grey (95%) */
