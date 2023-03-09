@@ -29,26 +29,26 @@ html, body, .wrap { background-color: #F0F0F0; }
 	background-repeat: no-repeat;
 }
 .site_logo { background-image: url("./images/site_logo.svg"); }
-.navbar { background-color: #8FCFEF; } /* Light blue */
+.navbar { background-color: #B3DB9E; } /* Light grey green */
 .forumbg, .forabg { background-color: #68C174; background-image: none; } /* Soft green */
 
 .bg1 { background-color: #FFF; }
 .bg2 { background-color: #F2F2F2; } /* Pale grey (95%) */
-.bg3 { background-color: #CFEDFC; } /* Cloudy blue */
+.bg3 { background-color: #D0F2BF; } /* Very light grey green */
 .post.bg1,.post.bg2 { background-color: #FFF; }
 ul.forums { background-color: #F2F2F2; background-image: none; }
 .post:target .content { color: #333333; }
 .postprofile { color: #666666; border-color: lightgray; }
-.panel { background-color: #CFEDFC; color: #333333; } /* Cloudy blue */
+.panel { background-color: #D0F2BF; color: #333333; } /* Very light grey green */
 
 /* "dl.file" includes both file (img or link) and <dd>Viewed or Downloaded nn times</dd> */
-dl.file, dl.thumbnail { background-color: #CFEDFC; } /* Cloudy blue */
+dl.file, dl.thumbnail { background-color: #D0F2BF; } /* Very light grey green */
 .attach-image img { border-color: transparent; }
 dl.thumbnail img { border-color: lightgray; }
 
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
-	background-color: #CFEDFC; /* Cloudy blue */
+	background-color: #D0F2BF; /* Very light grey green */
 	background-image: none;
 	border-color: lightgray;
 	border-bottom: none;
