@@ -59,6 +59,7 @@ dl.thumbnail img { border-color: lightgray; }
 
 input.inputbox, fieldset.quick-login input.inputbox { background-color: #FFF; }
 
+li.row { border-top-color: #FFFFFF; border-bottom-color: #CCCCCC; }
 li.row dd { border-left-color: #CCCCCC; }
 .rtl li.row dd { border-right-color: #CCCCCC; border-left-color: transparent; }
 
