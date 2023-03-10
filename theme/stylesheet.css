@@ -63,6 +63,8 @@ li.row { border-top-color: #FFFFFF; border-bottom-color: #CCCCCC; }
 li.row dd { border-left-color: #CCCCCC; }
 .rtl li.row dd { border-right-color: #CCCCCC; border-left-color: transparent; }
 
+.forumbg .header a:hover, .forabg .header a:hover, th a:hover { color: #FFFF7F; }
+
 /* Post body links (xx) */
 .postlink { border-bottom-color: #368AD2; color: #0B50DA; } /* Azul */
 .postlink:visited { border-bottom-color: #5D8FBD; color: #3973AC; } /* Flat blue */
