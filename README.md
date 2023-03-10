@@ -27,15 +27,9 @@ This is a forum showcase, powered by phpBB and featuring this Prosilver-lm. But 
 
 ### Design improvements: colours
 
-Colours are frequencies and energies. Different colours carry different values and moods. I think it is rather impossible to find a green colour that is both nice and comfortable, as a widespread colour background.
+Here there is a need for a coherent, consistent brand image across all websites. The colour gradient used for the banner is similar to the one found on LinuxMint's [main website](https://linuxmint.com/). And the green background on forum categories is the same as the one on the fixed navigation bar appearing as you scroll down on this main website. And other colour tints got created based on this colour palette found on the main website.
 
-In my humble opinion, green colours can either be nice, vibrant, and thus become a source of fatigue, or be made of very low saturation level and darkened, and thus be turned into a comfortable background colour. But then it gets a bit sad looking... Just try to find a good green background having a  contrast ratio of at least 3, for a white foreground text.
-
-I find it works much better with blue tones. The contrasts are naturally better, and the blue tones looks nice at pretty much any saturation levels, high or low. All this to briefly summarize the colour choices behind this Prosilver-lm. White, grey and blue tones and colours. It is about getting inspired by the skies, the light clouds, the water, and neutral white and greys.
-
-Of course, you also need to be unique, different. And there comes this nice green background behind the logo that makes those forums unique. You can't miss it. And that's all you need! And that green is carefully chosen too, ranging in higher colour hues... And it is not too big, not too small, and it just gets out of your way as you scroll down the page.
-
-In fact, all the different backgrounds and foregrounds received a lot of attention and work. It got tested, modified, and retested and modified over and over again. The background body is made of a light and neutral grey. And All the forums posts are made of the same white background and dark grey foreground text. Thus, the contrast is always the best one, very similar to the Mint-Y theme: `#333333` on `#FFFFFF`. And the focus is naturally driven onto the inner posts, with their white backgrounds, as opposed to the outer grey body.
+But it can't be all just green tints on green tints. There is a need for neutral greys or soft blues. Here, the background body is made of a light and neutral grey. And All the forums posts are made of the same white background and dark grey foreground text. Thus, the contrast is always the best one, very similar to the Mint-Y theme: `#333333` on `#FFFFFF`. And the focus is naturally driven onto the inner posts, with their white backgrounds, as opposed to the outer grey body.
 
 ### Design improvements: page header and logo
 
