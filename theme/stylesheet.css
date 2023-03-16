@@ -11,6 +11,8 @@
 /* colours.css__________________________________________________________________________________________*/
 
 html, body, .wrap { background-color: #F0F0F0; }
+html, body { color: #333333; }
+ul.topiclist li { color: #333333; }
 
 /*  https://linuxmint.com/ main banner: linear-gradient(150deg, #69B53F 0%, #2ab9a5 100%);
     Forums: linear-gradient(90deg, #66B73D 0%, #25B0B1 100%);
