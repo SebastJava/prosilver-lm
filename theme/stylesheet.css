@@ -10,20 +10,17 @@
 
 /* colours.css__________________________________________________________________________________________*/
 
-html, body, .wrap { background-color: #F0F0F0; }
+html, body, .wrap { background-color: #E8E8E8; }
 html, body { color: #333333; }
 ul.topiclist li { color: #333333; }
 
-/*  https://linuxmint.com/ main banner: linear-gradient(150deg, #69B53F 0%, #2ab9a5 100%);
-    Forums: linear-gradient(90deg, #66B73D 0%, #25B0B1 100%);
-    #66B73D = HSL 100,50,48 -> #25B0B1 = HSL 180,65,42*/
 #page-header {
-	background-color: #68C174; /* Soft green */
-	background-image: url("./images/banner.svg"), linear-gradient(90deg, #66B73D 0%, #25B0B1 100%);
+	background-color: #1DC973;
+	background-image: url("./images/banner.svg");
 	background-repeat: no-repeat;
 	border-radius: 7px;
 }
-#page-header .navbar { background-color: rgba(255,255,255,0.5); }
+#page-header .navbar { background-color: rgba(255,255,255,0.6); }
 
 .headerbar {
 	background-color: transparent;
@@ -31,26 +28,27 @@ ul.topiclist li { color: #333333; }
 	background-repeat: no-repeat;
 }
 .site_logo { background-image: url("./images/site_logo.svg"); }
-.navbar { background-color: #B3DB9E; } /* Light grey green */
-.forumbg, .forabg { background-color: #68C174; background-image: none; } /* Soft green */
+.navbar { background-color: #A5E9C7; }
+.forumbg, .forabg { background-color: #007DBC; background-image: none; }
 
 .bg1 { background-color: #FFF; }
-.bg2 { background-color: #F2F2F2; } /* Pale grey (95%) */
-.bg3 { background-color: #D0F2BF; } /* Very light grey green */
+.bg2 { background-color: #DFFBED; }
+.bg3 { background-color: #DFFBED; }
 .post.bg1,.post.bg2 { background-color: #FFF; }
-ul.forums { background-color: #F2F2F2; background-image: none; }
+ul.forums { background-color: #DFFBED; background-image: none; }
 .post:target .content { color: #333333; }
 .postprofile { color: #666666; border-color: lightgray; }
-.panel { background-color: #D0F2BF; color: #333333; } /* Very light grey green */
+.panel { background-color: #DFFBED; color: #333333; }
+.navigation a { color: #333; background-color: #A5E9C7; background-image: none; }
 
 /* "dl.file" includes both file (img or link) and <dd>Viewed or Downloaded nn times</dd> */
-dl.file, dl.thumbnail { background-color: #D0F2BF; } /* Very light grey green */
+dl.file, dl.thumbnail { background-color: #DFFBED; }
 .attach-image img { border-color: transparent; }
 dl.thumbnail img { border-color: lightgray; }
 
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
-	background-color: #D0F2BF; /* Very light grey green */
+	background-color: #DFFBED;
 	background-image: none;
 	border-color: lightgray;
 	border-bottom: none;
@@ -61,13 +59,13 @@ dl.thumbnail img { border-color: lightgray; }
 
 input.inputbox, fieldset.quick-login input.inputbox { background-color: #FFF; }
 
-li.row { border-top-color: #FFFFFF; border-bottom-color: #CCCCCC; }
-li.row dd { border-left-color: #CCCCCC; }
-.rtl li.row dd { border-right-color: #CCCCCC; border-left-color: transparent; }
+li.row { border-top-color: #FFFFFF; border-bottom-color: #8FEFC0; }
+li.row:hover { background-color: #E7F7FF; }
+li.row dd { border-left-color: #8FEFC0; }
+.rtl li.row dd { border-right-color: #8FEFC0; border-left-color: transparent; }
 
-.forumbg .header a:hover, .forabg .header a:hover, th a:hover { color: #FFFF7F; }
+.forumbg .header a:hover, .forabg .header a:hover, th a:hover { color: #FFFFFF; }
 
-/* Post body links (xx) */
 .postlink { border-bottom-color: #368AD2; color: #0B50DA; } /* Azul */
 .postlink:visited { border-bottom-color: #5D8FBD; color: #3973AC; } /* Flat blue */
 .postlink:hover { background-color: #D0E4F6; color: #D31141; } /* Rose red */
@@ -85,12 +83,12 @@ li.row dd { border-left-color: #CCCCCC; }
 	padding: 5px 10px 0px 10px;
 	border-radius: 0px 0px 7px 7px;
 }
-.logo { padding: 15px; }
+.logo { padding: 10px; }
 
 /*  700px (responsive threshold width) - 56px (wrap) - 10px (headerbar) = 634px
     634px x 65% = 412 px (site-description width) - (5+5) px padding = 402px site_logo width
     site_logo height = 216×402÷1724 = 50.367 px  */
-.logo, .site_logo { width: 402px; height: 52px; }
+.logo, .site_logo { width: 400px; height: 58px; }
 
 /* forms.css____________________________________________________________________________________________*/
 
