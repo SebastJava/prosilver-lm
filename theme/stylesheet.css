@@ -35,7 +35,7 @@ ul.topiclist li { color: #333333; }
 .bg2 { background-color: #DFFBED; }
 .bg3 { background-color: #DFFBED; }
 .post.bg1,.post.bg2 { background-color: #FFF; }
-ul.forums { background-color: #DFFBED; background-image: none; }
+ul.forums { background-color: #FFF; background-image: none; }
 .post:target .content { color: #333333; }
 .postprofile { color: #666666; border-color: lightgray; }
 .panel { background-color: #DFFBED; color: #333333; }
