@@ -10,25 +10,19 @@
 
 /* colours.css__________________________________________________________________________________________*/
 
-html, body, .wrap { background-color: #E8E8E8; }
-html, body { color: #333333; }
+html, body { color: #333333; background-color: #E8E8E8; }
+.wrap { background-color: transparent; }
 ul.topiclist li { color: #333333; }
 
-#page-header {
-	background-color: #1DC973;
-	background-image: url("./images/banner.svg");
-	background-repeat: no-repeat;
-	border-radius: 7px;
-}
-#page-header .navbar { background-color: rgba(255,255,255,0.6); }
+#page-header { background-color: transparent; background-image: none; }
 
-.headerbar {
-	background-color: transparent;
-	background-image: none;
-	background-repeat: no-repeat;
-}
+#headerbar-background { background-color: #1DC973; }
+.headerbar { background-color: transparent; background-image: none; }
 .site_logo { background-image: url("./images/site_logo.svg"); }
-.navbar { background-color: #A5E9C7; }
+
+#navbar-background { background-color: #A6F2CC; }
+.navbar { background-color: #A6F2CC; background-image: none;}
+
 .forumbg, .forabg { background-color: #007DBC; background-image: none; }
 
 .bg1 { background-color: #FFF; }
@@ -72,18 +66,12 @@ li.row dd { border-left-color: #8FEFC0; }
 
 /* common.css___________________________________________________________________________________________*/
 
-.wrap { border: none; }
+body { padding: 0px 0px 12px 0px; }
+.wrap { border: none; padding: 0px 15px 0px 15px; }
 
-.headerbar {
-	margin-bottom: 0px;
-	padding: 5px;
-	border-radius: 7px 7px 0px 0px;
-}
-.navbar:not(.page-footer .navbar) {
-	padding: 5px 10px 0px 10px;
-	border-radius: 0px 0px 7px 7px;
-}
-.logo { padding: 10px; }
+.headerbar { margin: 0px; border-radius: 0px; padding: 0px; }
+.logo { padding: 15px 0px; }
+#page-header .navbar { margin: 0px; border-radius: 0px; padding: 5px 0px 0px 0px; }
 
 /*  700px (responsive threshold width) - 56px (wrap) - 10px (headerbar) = 634px
     634px x 65% = 412 px (site-description width) - (5+5) px padding = 402px site_logo width
@@ -92,7 +80,7 @@ li.row dd { border-left-color: #8FEFC0; }
 
 /* forms.css____________________________________________________________________________________________*/
 
-.search-header { margin-top: 32px; }
+.search-header { margin: 32px 0px 0px 0px; }
 
 /* responsive.css_______________________________________________________________________________________*/
 
