@@ -17,6 +17,7 @@ ul.topiclist li { color: #333333; }
 #page-header { background-color: transparent; background-image: none; }
 
 #headerbar-background { background-color: #1DC973; }
+#headerbar-wrap { background-image: url("./images/banner.svg"); }
 .headerbar { background-color: transparent; background-image: none; }
 .site_logo { background-image: url("./images/site_logo.svg"); }
 
@@ -70,7 +71,7 @@ body { padding: 0px 0px 12px 0px; }
 .wrap { border: none; padding: 0px 15px 0px 15px; }
 
 .headerbar { margin: 0px; border-radius: 0px; padding: 0px; }
-.logo { padding: 15px 0px; }
+.logo { padding: 21px 0px; }
 #page-header .navbar { margin: 0px; border-radius: 0px; padding: 5px 0px 0px 0px; }
 
 /*  700px (responsive threshold width) - 56px (wrap) - 10px (headerbar) = 634px
@@ -80,7 +81,7 @@ body { padding: 0px 0px 12px 0px; }
 
 /* forms.css____________________________________________________________________________________________*/
 
-.search-header { margin: 32px 0px 0px 0px; }
+.search-header { margin: 42px 0px 0px 0px; }
 
 /* responsive.css_______________________________________________________________________________________*/
 
