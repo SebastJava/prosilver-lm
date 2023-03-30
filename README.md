@@ -1,8 +1,5 @@
-CURRENT DEFAULT MINTY:
-![preview](preview/Minty-960px-compare.png)
-
-NEW PROSILVER-LM:
-![preview](preview/Prosilver-lm-960px-v3.png)
+CURRENT DEFAULT MINTY vs NEW PROSILVER-LM:
+![preview](preview/Minty-and-Prosilver-lm-tile-LR-compare.png)
 
 # Prosilver-lm: phpBB theme for LinuxMint
 
