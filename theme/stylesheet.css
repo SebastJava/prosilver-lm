@@ -17,14 +17,14 @@ ul.topiclist li { color: #333333; }
 #page-header { background-color: transparent; background-image: none; }
 
 #headerbar-background { background-color: #1DC973; }
-#headerbar-wrap { background-image: url("./images/banner-v3.svg"); }
+#headerbar-wrap { background-image: url("./images/banner-v4.svg"); }
 .headerbar { background-color: transparent; background-image: none; }
 .site_logo { background-image: url("./images/site_logo.svg"); }
 
-#navbar-background { background-color: #A6F2CC; }
-.navbar { background-color: #A6F2CC; background-image: none;}
+#navbar-background { background-color: #AAEECC; }
+.navbar { background-color: #AAEECC; background-image: none;}
 
-.forumbg, .forabg { background-color: #007DBC; background-image: none; }
+.forumbg, .forabg { background-color: #0F8A6B; background-image: none; }
 
 .bg1 { background-color: #FFF; }
 .bg2 { background-color: #DFFBED; }
@@ -34,7 +34,7 @@ ul.forums { background-color: #FFF; background-image: none; }
 .post:target .content { color: #333333; }
 .postprofile { color: #666666; border-color: lightgray; }
 .panel { background-color: #DFFBED; color: #333333; }
-.navigation a { color: #333; background-color: #A6F2CC; background-image: none; }
+.navigation a { color: #333; background-color: #AAEECC; background-image: none; }
 
 /* "dl.file" includes both file (img or link) and <dd>Viewed or Downloaded nn times</dd> */
 dl.file, dl.thumbnail { background-color: #DFFBED; }
@@ -54,10 +54,10 @@ dl.thumbnail img { border-color: lightgray; }
 
 input.inputbox, fieldset.quick-login input.inputbox { background-color: #FFF; }
 
-li.row { border-top-color: #FFFFFF; border-bottom-color: #6AEAA9; }
+li.row { border-top-color: #FFFFFF; border-bottom-color: #71E3BC; }
 li.row:hover { background-color: #E7F7FF; }
-li.row dd { border-left-color: #6AEAA9; }
-.rtl li.row dd { border-right-color: #6AEAA9; border-left-color: transparent; }
+li.row dd { border-left-color: #71E3BC; }
+.rtl li.row dd { border-right-color: #71E3BC; border-left-color: transparent; }
 
 .forumbg .header a:hover, .forabg .header a:hover, th a:hover { color: #FFFFFF; }
 
