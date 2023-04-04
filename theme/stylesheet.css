@@ -14,6 +14,13 @@ html, body { color: #333333; background-color: #E8E8E8; }
 .wrap { background-color: transparent; }
 ul.topiclist li { color: #333333; }
 
+a { color: #0054A9; }
+a:hover { color: #D90B2D; }
+
+.postlink { border-bottom-color: #0054A9; color: #0054A9; }
+.postlink:visited { border-bottom-color: #3973AC; color: #3973AC; }
+.postlink:hover { background-color: #D0E4F6; color: #D90B2D; }
+
 #page-header { background-color: transparent; background-image: none; }
 
 #headerbar-background { background-color: #1DC973; }
@@ -21,10 +28,14 @@ ul.topiclist li { color: #333333; }
 .headerbar { background-color: transparent; background-image: none; }
 .site_logo { background-image: url("./images/site_logo.svg"); }
 
-#navbar-background { background-color: #AAEECC; }
-.navbar { background-color: #AAEECC; background-image: none;}
+#navbar-background { background-color: #91EFC0; }
+.navbar { background-color: #91EFC0; background-image: none;}
 
-.forumbg, .forabg { background-color: #0F8A6B; background-image: none; }
+.forumbg, .forabg { background-color: #91EFC0; background-image: none; }
+.forumbg .header a, .forabg .header a, th a { color: #333333; }
+.forumbg .header a:hover, .forabg .header a:hover, th a:hover { color: #333333; }
+li.header dt, li.header dd { color: #333333; }
+table.table1 thead th { color: #333333; }
 
 .bg1 { background-color: #FFF; }
 .bg2 { background-color: #DFFBED; }
@@ -34,7 +45,7 @@ ul.forums { background-color: #FFF; background-image: none; }
 .post:target .content { color: #333333; }
 .postprofile { color: #666666; border-color: lightgray; }
 .panel { background-color: #DFFBED; color: #333333; }
-.navigation a { color: #333; background-color: #AAEECC; background-image: none; }
+.navigation a { color: #333; background-color: #91EFC0; background-image: none; }
 
 /* "dl.file" includes both file (img or link) and <dd>Viewed or Downloaded nn times</dd> */
 dl.file, dl.thumbnail { background-color: #DFFBED; }
@@ -58,12 +69,6 @@ li.row { border-top-color: #FFFFFF; border-bottom-color: #71E3BC; }
 li.row:hover { background-color: #E7F7FF; }
 li.row dd { border-left-color: #71E3BC; }
 .rtl li.row dd { border-right-color: #71E3BC; border-left-color: transparent; }
-
-.forumbg .header a:hover, .forabg .header a:hover, th a:hover { color: #FFFFFF; }
-
-.postlink { border-bottom-color: #368AD2; color: #0B50DA; } /* Azul */
-.postlink:visited { border-bottom-color: #5D8FBD; color: #3973AC; } /* Flat blue */
-.postlink:hover { background-color: #D0E4F6; color: #D31141; } /* Rose red */
 
 /* common.css___________________________________________________________________________________________*/
 
