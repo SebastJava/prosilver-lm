@@ -14,12 +14,12 @@ html, body { color: #333333; background-color: #E8E8E8; }
 .wrap { background-color: transparent; }
 ul.topiclist li { color: #333333; }
 
-a { color: #0054A9; }
-a:hover { color: #D90B2D; }
+a { color: #004CE4; }
+a:hover { color: #0155FF; }
 
-.postlink { border-bottom-color: #0054A9; color: #0054A9; }
-.postlink:visited { border-bottom-color: #3973AC; color: #3973AC; }
-.postlink:hover { background-color: #D0E4F6; color: #D90B2D; }
+.postlink { border-bottom-color: #004CE4; color: #004CE4; }
+.postlink:visited { border-bottom-color: #812AD5; color: #812AD5; }
+.postlink:hover { background-color: #E4EDFF; color: #0155FF; }
 
 #page-header { background-color: transparent; background-image: none; }
 
@@ -34,7 +34,7 @@ a:hover { color: #D90B2D; }
 .forumbg, .forabg { background-color: #0AC386; background-image: none; }
 .forumbg .header a, .forabg .header a, th a { color: #FFF; }
 .forumbg .header a:hover, .forabg .header a:hover, th a:hover { color: #FFF; }
-li.header dt, li.header dd { color: #FFF; }
+li.header dt, li.header dd { color: #FFF; font-weight: bold; }
 table.table1 thead th { color: #FFF; }
 
 .bg1 { background-color: #FFF; }
@@ -46,15 +46,16 @@ ul.forums { background-color: #FFF; background-image: none; }
 .postprofile { color: #666666; border-color: lightgray; }
 .panel { background-color: #DFFBE8; color: #333333; }
 .navigation a { color: #333; background: #BACCD9; }
-.navigation a:hover { color: #D90B2D; background: #DDEDFB; }
+.navigation a:hover { color: #0155FF; background: #DDEDFB; }
 .navigation .active-subsection a { color: #333; background: #8FEFAF; }
-.navigation .active-subsection a:hover { color: #D90B2D; background: #8FEFAF; }
+.navigation .active-subsection a:hover { color: #0155FF; background: #8FEFAF; }
 
 /* "dl.file" includes both file (img or link) and <dd>Viewed or Downloaded nn times</dd> */
 dl.file, dl.thumbnail { background-color: #DFFBE8; }
 .attach-image img { border-color: transparent; }
 dl.thumbnail img { border-color: lightgray; }
 
+.tabs .tab > a:hover { background: #DDEDF8; color: #0155FF; }
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
 	background-color: #DFFBE8;
