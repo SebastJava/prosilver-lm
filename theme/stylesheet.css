@@ -14,8 +14,9 @@ html, body { color: #333333; background-color: #E8E8E8; }
 .wrap { background-color: transparent; }
 ul.topiclist li { color: #333333; }
 
-a { color: #004CE4; }
-a:hover { color: #0155FF; }
+a, a:hover, h3 { color: #008257; }
+.button:hover, .button:focus { border-color: #008257; }
+.button-secondary:focus, .button-secondary:hover, .button:focus .icon, .button:hover .icon { color: #008257; }
 
 .postlink { border-bottom-color: #004CE4; color: #004CE4; }
 .postlink:visited { border-bottom-color: #812AD5; color: #812AD5; }
@@ -23,7 +24,7 @@ a:hover { color: #0155FF; }
 
 #page-header { background-color: transparent; background-image: none; }
 
-#headerbar-background { background-color: #0AC386; }
+#headerbar-background { background-color: #26C08C; }
 #headerbar-wrap { background-image: url("./images/banner-v6.svg"); }
 .headerbar { background-color: transparent; background-image: none; }
 .site_logo { background-image: url("./images/site_logo.svg"); }
@@ -31,7 +32,7 @@ a:hover { color: #0155FF; }
 #navbar-background { background-color: #8FEFAF; }
 .navbar { background-color: #8FEFAF; background-image: none;}
 
-.forumbg, .forabg { background-color: #0AC386; background-image: none; }
+.forumbg, .forabg { background-color: #26C08C; background-image: none; }
 .forumbg .header a, .forabg .header a, th a { color: #FFF; }
 .forumbg .header a:hover, .forabg .header a:hover, th a:hover { color: #FFF; }
 li.header dt, li.header dd { color: #FFF; font-weight: bold; }
