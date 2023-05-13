@@ -24,15 +24,15 @@ a, a:hover, h3 { color: #008257; }
 
 #page-header { background-color: transparent; background-image: none; }
 
-#headerbar-background { background-color: #26C08C; }
+#headerbar-background { background: linear-gradient(90deg, #69B53F 0%, #2AB9A5 100%); }
 #headerbar-wrap { background-image: url("./images/banner-v6.svg"); }
 .headerbar { background-color: transparent; background-image: none; }
 .site_logo { background-image: url("./images/site_logo.svg"); }
 
-#navbar-background { background-color: #8FEFAF; }
-.navbar { background-color: #8FEFAF; background-image: none;}
+#navbar-background { background: linear-gradient(90deg, #B4DA9F 0%, #94DCD2 100%); }
+.navbar { background-color: transparent; background-image: none;}
 
-.forumbg, .forabg { background-color: #26C08C; background-image: none; }
+.forumbg, .forabg { background-color: #68C174; background-image: none; }
 .forumbg .header a, .forabg .header a, th a { color: #FFF; }
 .forumbg .header a:hover, .forabg .header a:hover, th a:hover { color: #FFF; }
 li.header dt, li.header dd { color: #FFF; font-weight: bold; }
