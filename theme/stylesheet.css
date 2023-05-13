@@ -30,7 +30,8 @@ a, a:hover, h3 { color: #008257; }
 .site_logo { background-image: url("./images/site_logo.svg"); }
 
 #navbar-background { background: linear-gradient(90deg, #B4DA9F 0%, #94DCD2 100%); }
-.navbar { background-color: transparent; background-image: none;}
+.navbar { background: linear-gradient(90deg, #B4DA9F 0%, #94DCD2 100%); }
+#page-header .navbar { background-color: transparent; background-image: none; }
 
 .forumbg, .forabg { background-color: #68C174; background-image: none; }
 .forumbg .header a, .forabg .header a, th a { color: #FFF; }
