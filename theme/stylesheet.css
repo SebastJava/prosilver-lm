@@ -19,8 +19,8 @@ a, a:hover, h3 { color: #008257; }
 .button-secondary:focus, .button-secondary:hover, .button:focus .icon, .button:hover .icon { color: #008257; }
 
 .postlink { border-bottom-color: #004CE4; color: #004CE4; }
-.postlink:visited { border-bottom-color: #812AD5; color: #812AD5; }
-.postlink:hover { background-color: #E4EDFF; color: #0155FF; }
+.postlink:visited { border-bottom-color: #0098E4; color: #0098E4; }
+.postlink:hover { background-color: #E4EDFF; color: #004CE4; }
 
 #page-header { background-color: transparent; background-image: none; }
 
