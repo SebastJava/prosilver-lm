@@ -84,7 +84,7 @@ li.row:hover { background-color: #F8F8F8; }
 li.row dd { border-left-color: #71E3BC; }
 .rtl li.row dd { border-right-color: #71E3BC; border-left-color: transparent; }
 
-div.rules { background-color: #FFF; color: #EC003C; }
+div.rules { background-color: #FFB0BD; color: #202020; }
 
 /* common.css___________________________________________________________________________________________*/
 
