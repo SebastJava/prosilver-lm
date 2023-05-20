@@ -33,7 +33,12 @@ a, a:hover, h3 { color: #009A67; }
 .site_logo { background-image: url("./images/site_logo.svg"); }
 
 #navbar-background, .navbar { background: linear-gradient(90deg, #69B53F 0%, #2AB9A5 100%); }
-#page-header .navbar { background-color: transparent; background-image: none; border-top: 1px solid white; }
+#page-header .navbar {
+	background-color: transparent; background-image: none;
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+ul.navlinks { border-top-color: rgba(255, 255, 255, 0.5); }
+
 .forumbg, .forabg { background-color: #36BA8E; background-image: none; }
 .forumbg .header a, .forabg .header a, th a { color: #FFF; }
 .forumbg .header a:hover, .forabg .header a:hover, th a:hover { color: #FFF; }
