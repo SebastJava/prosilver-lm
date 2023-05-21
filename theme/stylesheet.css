@@ -56,16 +56,16 @@ ul.forums { background-color: #FFF; background-image: none; }
 .postprofile { color: #666666; border-color: lightgray; }
 .panel { background-color: #DFFBE8; color: #303030; }
 .navigation a { color: #333; background: #BACCD9; }
-.navigation a:hover { color: #0155FF; background: #DDEDFB; }
+.navigation a:hover { color: #00885B; background: #DDEDFB; }
 .navigation .active-subsection a { color: #333; background: #8FEFAF; }
-.navigation .active-subsection a:hover { color: #0155FF; background: #8FEFAF; }
+.navigation .active-subsection a:hover { color: #00885B; background: #8FEFAF; }
 
 /* "dl.file" includes both file (img or link) and <dd>Viewed or Downloaded nn times</dd> */
 dl.file, dl.thumbnail { background-color: #FFF; }
 .attach-image img { border-color: transparent; }
 dl.thumbnail img { border-color: lightgray; }
 
-.tabs .tab > a:hover { background: #DDEDF8; color: #0155FF; }
+.tabs .tab > a:hover { background: #DDEDF8; color: #00885B; }
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
 	background-color: #DFFBE8;
