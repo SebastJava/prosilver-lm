@@ -14,9 +14,9 @@ html, body { color: #303030; background-color: #F0F0F0; }
 .wrap { background-color: transparent; }
 ul.topiclist li { color: #303030; }
 
-a, a:hover, h3 { color: #009A67; }
+a, a:hover, h3 { color: #00885B; } /* #00885B on white = 4.5 color contrast */
 .navbar a, .navbar a:hover, .navbar .breadcrumbs .crumb { color: white; }
-.navbar .dropdown a { color: #009A67; }
+.navbar .dropdown a { color: #00885B; }
 
 .button:hover, .button:focus { border-color: #008257; }
 .button-secondary:focus, .button-secondary:hover, .button:focus .icon, .button:hover .icon { color: #008257; }
