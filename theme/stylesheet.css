@@ -100,6 +100,10 @@ body { padding: 0px 0px 12px 0px; }
     site_logo height = 216×402÷1724 = 50.367 px  */
 .logo, .site_logo { width: 400px; height: 58px; }
 
+/* content.css___________________________________________________________________________________________*/
+
+.signature { text-align: right; }
+
 /* forms.css____________________________________________________________________________________________*/
 
 .search-header { margin: 42px 0px 0px 0px; }
@@ -131,6 +135,7 @@ body { padding: 0px 0px 12px 0px; }
 
 div.inline-attachment { margin-top: 1.4em; margin-bottom: 2.0em; }
 img.postimage { display: block; margin-left: auto; margin-right: auto; }
+.signature img.postimage { display: inline-block; }
 dl.file, dl.thumbnail { text-align: center; }
 .thumbnail a { display: block; }
 
