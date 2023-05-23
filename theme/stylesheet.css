@@ -14,7 +14,7 @@ html, body { color: #303030; background-color: #F0F0F0; }
 .wrap { background-color: transparent; }
 ul.topiclist li { color: #303030; }
 
-a, a:hover, h1, h2, h3 { color: #00885B; } /* #00885B on white = 4.5 color contrast */
+a, a:hover, h1, h2, h3, .content h2, .panel h2 { color: #00885B; } /* #00885B on white = 4.5 color contrast */
 .navbar a, .navbar a:hover, .navbar .breadcrumbs .crumb { color: white; }
 .navbar .dropdown a { color: #00885B; }
 
