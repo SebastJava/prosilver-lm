@@ -17,7 +17,7 @@ ul.topiclist li { color: #303030; }
 a, a:hover { color: #009866; }
 h1, h2, h3, h4, h5, h6, .content h2, .panel h2 { color: #303030; }
 .navbar a, .navbar a:hover, .navbar .breadcrumbs .crumb { color: white; }
-.navbar .dropdown a { color: #00885B; }
+.navbar .dropdown a { color: #009866; }
 
 .button:hover, .button:focus { border-color: #008257; }
 .button-secondary:focus, .button-secondary:hover, .button:focus .icon, .button:hover .icon { color: #008257; }
@@ -51,9 +51,9 @@ ul.forums { background-color: #FFF; background-image: none; }
 .postprofile { color: #666666; border-color: lightgray; }
 .panel { background-color: #DFFBE8; color: #303030; }
 .navigation a { color: #333; background: #BACCD9; }
-.navigation a:hover { color: #00885B; background: #DDEDFB; }
+.navigation a:hover { color: #009866; background: #DDEDFB; }
 .navigation .active-subsection a { color: #333; background: #8FEFAF; }
-.navigation .active-subsection a:hover { color: #00885B; background: #8FEFAF; }
+.navigation .active-subsection a:hover { color: #009866; background: #8FEFAF; }
 
 .bg1 { background-color: #FFF; }
 .bg2 { background-color: #DFFBE8; }
@@ -66,7 +66,7 @@ dl.file, dl.thumbnail { background-color: #FFF; }
 .attach-image img { border-color: transparent; }
 dl.thumbnail img { border-color: lightgray; }
 
-.tabs .tab > a:hover { background: #DDEDF8; color: #00885B; }
+.tabs .tab > a:hover { background: #DDEDF8; color: #009866; }
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
 	background-color: #DFFBE8;
@@ -90,6 +90,8 @@ div.rules { background-color: #FFCAD2; color: #BD002F; }
 table.table1 tbody tr:hover, table.table1 tbody tr.hover { background-color: #F8F8F8; }
 .search-results li:hover, .search-results li.active { background-color: #F8F8F8; }
 .dropdown-extended ul li:hover { background-color: #F8F8F8; }
+
+dl.details dd { color: #303030; }
 
 /* common.css___________________________________________________________________________________________*/
 
