@@ -28,15 +28,15 @@ All colors are not equal. I am using tools like https://colorable.jxnblk.com/ or
 
 There can be some exceptions. The logo is not something that has to be read over a long period of time. It doesn't need to meet any contrasts standards. And I can always use some light green background tints with a dark foreground text, where applicable.
 
-Anyway, those forums can hardly be made of only green tints on green tints. You need some contrasts. There is a need for neutral greys or blue tones. Here, the background body is made of a light and neutral grey. And all the forums posts are made of the same white background and dark grey foreground text. Thus, the contrast is always the best one, very similar to the Mint-Y theme: `#333333` on `#FFFFFF`. And the focus is naturally driven onto the inner posts, with their white backgrounds, as opposed to the outer grey body.
+Anyway, those forums can hardly be made of only green tints on green tints. You need some contrasts. There is a need for neutral greys or blue tones. Here, the background body is made of a light and neutral grey. And all the forums posts are made of the same white background and dark grey foreground text. Thus, the contrast is always the best one, very similar to the Mint-Y theme: `#303030` on `#FFFFFF`. And the focus is naturally driven onto the inner posts, with their white backgrounds, as opposed to the outer grey body.
 
 ### Design improvements: page header and logo
 
 * The "Lm" logo and "linuxmint forums" text are grouped together into one single SVG file. That's precision typography and alignments based on a variable weight [Exo 2 font](https://fonts.google.com/specimen/Exo+2?query=exo&vfonly=true). But don't worry, that text got converted to paths, so there is no need to download any font. No compatibility issues here.
 * The site name and site description are not getting displayed anymore. So there is no redundancy with the logo, which already contains this nice and precise "linuxmint forums" typography.
 * The logo and custom typography gets displayed on every devices, including on cellular phones, but with a reduced size for those, of course.
-* Those two "headerbar" and "navbar", on top of every page, are now nicely grouped together. This makes it look less modular. And this grouping is further enhanced with a common background "banner". But this "navbar" gets a semi-transparent white overlay, for a better readability.
-* This background banner is made of abstract rings. It fits with the logo. This could evolve from time to time, but I will probably keep it abstract, simple, uncluttered.
+* Those two "headerbar" and "navbar", on top of every page, are now nicely grouped together. This makes it look less modular.
+* This page header gets a linear color gradient with the same color values as found on LinuxMint's main website. For a coherent, consistent brand image.
 
 ### Design improvements: miscellaneous
 
