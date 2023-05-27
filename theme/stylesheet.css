@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, .content h2, .panel h2 { color: #303030; }
 
 .postlink { border-bottom-color: #004CE4; color: #004CE4; }
 .postlink:visited { border-bottom-color: #004CE4; color: #004CE4; }
-.postlink:hover { background-color: #F8F8F8; color: #004CE4; }
+.postlink:hover { background-color: #B0CAFF; color: #303030; }
 
 #page-header { background-color: transparent; background-image: none; }
 
