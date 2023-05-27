@@ -16,11 +16,11 @@ ul.topiclist li { color: #303030; }
 
 a, a:hover { color: #009866; }
 h1, h2, h3, h4, h5, h6, .content h2, .panel h2 { color: #303030; }
-.navbar a, .navbar a:hover, .navbar .breadcrumbs .crumb { color: white; }
+.navbar a, .navbar a:hover, .navbar .breadcrumbs .crumb { color: #FFF; }
 .navbar .dropdown a { color: #009866; }
 
-.button:hover, .button:focus { border-color: #008257; }
-.button-secondary:focus, .button-secondary:hover, .button:focus .icon, .button:hover .icon { color: #008257; }
+.button:hover, .button:focus { border-color: #00885B; }
+.button-secondary:focus, .button-secondary:hover, .button:focus .icon, .button:hover .icon { color: #00885B; }
 
 .postlink { border-bottom-color: #004CE4; color: #004CE4; }
 .postlink:visited { border-bottom-color: #0098E4; color: #0098E4; }
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, .content h2, .panel h2 { color: #303030; }
 }
 ul.navlinks { border-top-color: rgba(255, 255, 255, 0.5); }
 
-.forumbg, .forabg { background-color: #36BA8E; background-image: none; }
+.forumbg, .forabg { background-color: #18A979; background-image: none; }
 .forumbg .header a, .forabg .header a, th a { color: #FFF; }
 .forumbg .header a:hover, .forabg .header a:hover, th a:hover { color: #FFF; }
 li.header dt, li.header dd { color: #FFF; font-weight: bold; }
@@ -49,27 +49,27 @@ table.table1 thead th { color: #FFF; }
 ul.forums { background-color: #FFF; background-image: none; }
 .post:target .content { color: #303030; }
 .postprofile { color: #666666; border-color: lightgray; }
-.panel { background-color: #DFFBE8; color: #303030; }
-.navigation a { color: #333; background: #BACCD9; }
+.panel { background-color: #E3FFE3; color: #303030; }
+.navigation a { color: #303030; background: #BACCD9; }
 .navigation a:hover { color: #009866; background: #DDEDFB; }
-.navigation .active-subsection a { color: #333; background: #8FEFAF; }
+.navigation .active-subsection a { color: #303030; background: #8FEFAF; }
 .navigation .active-subsection a:hover { color: #009866; background: #8FEFAF; }
 
 .bg1 { background-color: #FFF; }
-.bg2 { background-color: #DFFBE8; }
-.bg3 { background-color: #DFFBE8; }
+.bg2 { background-color: #E3FFE3; }
+.bg3 { background-color: #E3FFE3; }
 .post.bg1 { background-color: #F4FFEF; }
-.post.bg2 { background-color: #EFFFFA; }
+.post.bg2 { background-color: #FFF; }
 
 /* "dl.file" includes both file (img or link) and <dd>Viewed or Downloaded nn times</dd> */
-dl.file, dl.thumbnail { background-color: #FFF; }
+dl.file, dl.thumbnail { background-color: #F8F8F8; }
 .attach-image img { border-color: transparent; }
 dl.thumbnail img { border-color: lightgray; }
 
 .tabs .tab > a:hover { background: #DDEDF8; color: #009866; }
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
-	background-color: #DFFBE8;
+	background-color: #E3FFE3;
 	background-image: none;
 	border-color: lightgray;
 	border-bottom: none;
@@ -80,10 +80,10 @@ dl.thumbnail img { border-color: lightgray; }
 
 input.inputbox, fieldset.quick-login input.inputbox { background-color: #FFF; }
 
-li.row { border-top-color: #FFFFFF; border-bottom-color: #71E3BC; }
+li.row { border-top-color: #FFF; border-bottom-color: #AAEEAA; }
 li.row:hover { background-color: #F8F8F8; }
-li.row dd { border-left-color: #71E3BC; }
-.rtl li.row dd { border-right-color: #71E3BC; border-left-color: transparent; }
+li.row dd { border-left-color: #AAEEAA; }
+.rtl li.row dd { border-right-color: #AAEEAA; border-left-color: transparent; }
 
 div.rules { background-color: #FFCAD2; color: #BD002F; }
 
@@ -106,6 +106,8 @@ body { padding: 0px 0px 12px 0px; }
     634px x 65% = 412 px (site-description width) - (5+5) px padding = 402px site_logo width
     site_logo height = 216×402÷1724 = 50.367 px  */
 .logo, .site_logo { width: 400px; height: 58px; }
+
+.post, .panel { margin-bottom: 12px; }
 
 /* content.css___________________________________________________________________________________________*/
 
