@@ -26,7 +26,7 @@
 	phpBB style name: prosilver-lm
 	Based on style:   prosilver (this is the default phpBB3 style)
 	Original author:  Tom Beddard ( http://www.subBlue.com/ )
-	Modified by: Sébastien Bouchard
+	Modified by: Sébastien Bouchard (method for linking stylesheets taken from the proflat theme)
 -->
 
 <!-- IF S_ALLOW_CDN -->
@@ -47,7 +47,8 @@
 <!-- ENDIF -->
 <link href="{T_FONT_AWESOME_LINK}" rel="stylesheet">
 <link href="{ROOT_PATH}styles/prosilver/theme/stylesheet.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
-<link href="{T_STYLESHEET_LINK}" rel="stylesheet">
+<link href="{T_THEME_PATH}/lm-colours.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
+<link href="{T_THEME_PATH}/lm-style.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <link href="{ROOT_PATH}styles/prosilver/theme/{T_THEME_LANG_NAME}/stylesheet.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 
 <!-- IF S_CONTENT_DIRECTION eq 'rtl' -->
