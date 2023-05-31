@@ -1167,6 +1167,7 @@ li.notification-reported strong, li.notification-disapproved strong {
 ADDED CSS selectors for prosilver-lm
 -------------------------------------------------------------- */
 
+.navbar .rightside { color: #ABABAB; font-weight: bold; }
 .navbar a, .navbar a:hover, .navbar .breadcrumbs .crumb { color: #FFFFFF; }
 .navbar .dropdown a { color: #089277; }
 
@@ -1175,7 +1176,8 @@ ADDED CSS selectors for prosilver-lm
 #headerbar-background { background: linear-gradient(90deg, #69B53F 0%, #2AB9A5 100%); }
 #headerbar-wrap { background-image: url("./images/banner-v6.svg"); }
 
-#navbar-background, .navbar { background: linear-gradient(90deg, #69B53F 0%, #2AB9A5 100%); }
+#navbar-background { background: linear-gradient(90deg, #69B53F 0%, #2AB9A5 100%); }
+.navbar { background-color: #404040; background-image: none;}
 #page-header .navbar {
 	background-color: transparent; background-image: none;
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
