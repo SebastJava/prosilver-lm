@@ -1,5 +1,5 @@
 CURRENT DEFAULT MINTY vs NEW PROSILVER-LM:
-![preview](preview/Minty-and-Prosilver-lm-tile-LR-compare.png)
+![preview](preview/Prosilver-lm-and-minty-LR-compare.png)
 
 # Prosilver-lm: phpBB theme for LinuxMint
 
@@ -22,13 +22,22 @@ This Prosilver-lm being just a small child theme, this means it can easily and q
 
 This is a forum showcase, powered by phpBB and featuring this Prosilver-lm. But that's only for a limited time. This website is just a temporary one and will probably be deleted on Jan 21, 2024.
 
-### Design improvements: colours
+### Design improvements: colours and contrasts
 
-All colors are not equal. I am using tools like https://colorable.jxnblk.com/ or https://marijohannessen.github.io/color-contrast-checker/ to evaluate the color contrasts with a foreground white text, for example. In this case, I find it impossible to get a nice green tint with a color contrast ratio of at least 4.5 or higher. It works much better with blue tones.
+> A contrast ratio of 3:1 is the minimum level recommended by [ISO-9241-3] and [ANSI-HFES-100-1988] for standard text and vision. The 4.5:1 ratio is used in this provision to account for the loss in contrast that results from moderately low visual acuity, congenital or acquired color deficiencies, or the loss of contrast sensitivity that typically accompanies aging.
+
+source: https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html
+
+All colors are not equal. I am using tools like:
+
+* https://colorable.jxnblk.com/
+* https://marijohannessen.github.io/color-contrast-checker/
+
+These are used to evaluate the color contrasts with a foreground white text, for example. Or colored text on a white background. In those cases, I find it hard to get a nice green tint with a color contrast ratio of at least 3 or higher. It works much better with blue tones.
 
 There can be some exceptions. The logo is not something that has to be read over a long period of time. It doesn't need to meet any contrasts standards. And I can always use some light green background tints with a dark foreground text, where applicable.
 
-Anyway, those forums can hardly be made of only green tints on green tints. You need some contrasts. There is a need for neutral greys or blue tones. Here, the background body is made of a light and neutral grey. And all the forums posts are made of the same white background and dark grey foreground text. Thus, the contrast is always the best one, very similar to the Mint-Y theme: `#303030` on `#FFFFFF`. And the focus is naturally driven onto the inner posts, with their white backgrounds, as opposed to the outer grey body.
+Anyway, those forums can hardly be made of only green tints on green tints. You need some contrasts. There is a need for neutral greys or blue tones. Here, the background body is made of a light and neutral grey. And all the forums posts are made of some very light background with dark grey foreground text. Thus, the contrast is always excellent. And the focus is naturally driven onto the inner posts, with their light backgrounds, as opposed to the outer grey body.
 
 ### Design improvements: page header and logo
 
@@ -58,11 +67,13 @@ If you want to test this Prosilver-lm on your local computer before uploading it
 1. Make sure your `styles/prosilver` directory is unaltered. You should never modify this one, but create child themes instead. Else, just replace it with a fresh extract from the `phpBB-latest-version.zip`.
 1. Download or clone this prosilver-lm directory from here on [SebastJava/prosilver-lm](https://github.com/SebastJava/prosilver-lm). (Click on that green "Code" button on top-right ↗)
 1. Upload it onto your server at https://forums.linuxmint.com/styles/prosilver-lm/ (SFTP connection and administrator username and password required.)
-1. Once the style is uploaded, navigate to the board's ACP to Customize -> Install Styles. You should see your recently uploaded styles listed (assuming you uploaded it to the correct location and the style is valid), with an option to "Install style". Simply click it and the installation is complete! [More info here](https://www.phpbb.com/styles/installing/).
+1. Once the style is uploaded, navigate to the board's Administration Control Panel (ACP) to Customize -> Install Styles. You should see your recently uploaded styles listed (assuming you uploaded it to the correct location and the style is valid), with an option to "Install style". Simply click it and the installation is complete! [More info here](https://www.phpbb.com/styles/installing/).
 1. In ACP > Customize > Styles section, you should deactivate the parent Prosilver theme. This way, this parent is still available for this Prosilver-lm to work, but the forum users cannot choose this Prosilver parent, so they won't end up with the phpBB logo replacing the LinuxMint logo...
-1. You should also go to ACP > General > Board settings section, and check your Board style settings.
+1. You should also go to ACP > General > Board settings section, and check your Board style settings. There you can make this Prosilver-lm the default style and the guest style, among other things.
 
 The official and complete installation instructions can be found [here on phpBB](https://www.phpbb.com/styles/installing/).
+
+P.S.: Of course, you can start by keeping your current Minty theme as the default style and guest style, and just install this Prosilver-lm as another choice available for testing purposes.
 
 ### FlatUI Smilies update
 
