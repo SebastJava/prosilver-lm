@@ -31,7 +31,7 @@ hr {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: #089277; }
+a { color: #089277; font-weight: bold; }
 a:hover { color: #089277; }
 
 /* Links on gradient backgrounds */
@@ -52,6 +52,7 @@ a:hover { color: #089277; }
 .postlink {
 	border-bottom-color: #004CE4;
 	color: #004CE4;
+	font-weight: normal;
 }
 
 .postlink:visited {
@@ -75,7 +76,7 @@ a:hover { color: #089277; }
 
 /* Arrow links  */
 .arrow-left:hover, .arrow-right:hover {
-	color: #368AD2;
+	color: #303030;
 }
 
 /* Round cornered boxes and backgrounds
@@ -245,14 +246,14 @@ dl.details dd {
 }
 
 .jumpbox-cat-link {
-	background-color: #0076b1;
-	border-top-color: #0076B1;
+	background-color: #404040;
+	border-top-color: #404040;
 	color: #FFFFFF;
 }
 
 .jumpbox-cat-link:hover {
-	background-color: #12A3EB;
-	border-top-color: #12A3EB;
+	background-color: #585858;
+	border-top-color: #585858;
 	color: #FFFFFF;
 }
 
@@ -594,7 +595,7 @@ Colours and backgrounds for buttons.css
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#E9E9E9',GradientType=0 ); /* IE6-9 */
 	box-shadow: 0 0 0 1px #FFFFFF inset;
 	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
-	color: #D31141;
+	color: #BD002F;
 }
 
 .button:hover,
@@ -831,7 +832,7 @@ ul.cplist {
 }
 
 .responsive-tab .responsive-tab-link:hover:before {
-	border-color: #D31141;
+	border-color: #BD002F;
 }
 
 /* UCP navigation menu
@@ -1010,11 +1011,11 @@ input.inputbox, fieldset.quick-login input.inputbox {
 }
 
 .inputbox:hover {
-	border-color: #11A3EA;
+	border-color: #00885B;
 }
 
 .inputbox:focus {
-	border-color: #11A3EA;
+	border-color: #00885B;
 }
 
 .inputbox:focus:-moz-placeholder {
@@ -1057,8 +1058,8 @@ a.button1, a.button2 {
 
 /* Hover states */
 a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
-	border-color: #D31141;
-	color: #D31141;
+	border-color: #BD002F;
+	color: #BD002F;
 	background-color: #D2D2D2; /* Old browsers */ /* FF3.6+ */
 	background-image: -webkit-linear-gradient(top, #EFEFEF 0%, #D2D2D2 100%);
 	background-image: linear-gradient(to bottom, #EFEFEF 0%,#D2D2D2 100%); /* W3C */
@@ -1067,7 +1068,7 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, inpu
 
 /* Focus states */
 input.button1:focus, input.button2:focus, input.button3:focus {
-	border-color: #11A3EA;
+	border-color: #00885B;
 	color: #0F4987;
 }
 
@@ -1154,11 +1155,11 @@ input.disabled {
 }
 
 li.notification-reported strong, li.notification-disapproved strong {
-	color: #D31141;
+	color: #BD002F;
 }
 
 .badge {
-	background-color: #D31141;
+	background-color: #BD002F;
 	color: #ffffff;
 }
 

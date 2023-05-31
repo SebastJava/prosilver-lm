@@ -13,6 +13,8 @@
 body { padding: 0px 0px 12px 0px; }
 .wrap { border: none; padding: 0px 15px 0px 15px; }
 
+h1, h2, h3 { font-weight: bold; }
+
 .headerbar { margin: 0px; border-radius: 0px; padding: 0px; }
 .logo { padding: 21px 0px; }
 #page-header .navbar { margin: 0px; border-radius: 0px; padding: 0px; }
