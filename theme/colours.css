@@ -1167,8 +1167,8 @@ li.notification-reported strong, li.notification-disapproved strong {
 ADDED CSS selectors for prosilver-lm
 -------------------------------------------------------------- */
 
-.navbar .rightside { color: #ABABAB; font-weight: bold; }
-.navbar a, .navbar a:hover, .navbar .breadcrumbs .crumb { color: #FFFFFF; }
+.navbar .rightside { color: #ABABAB; }
+.navbar a, .navbar a:hover, .navbar .breadcrumbs .crumb { color: #FFFFFF; font-weight: bold; }
 .navbar .dropdown a { color: #089277; }
 
 #page-header { background-color: transparent; background-image: none; }
