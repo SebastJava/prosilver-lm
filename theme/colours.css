@@ -31,8 +31,8 @@ hr {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: #089277; font-weight: bold; }
-a:hover { color: #089277; }
+a { color: #0958A8; font-weight: bold; }
+a:hover { color: #0958A8; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -600,7 +600,7 @@ Colours and backgrounds for buttons.css
 
 .button:hover,
 .button:focus {
-	border-color: #00885B;
+	border-color: #0958A8;
 	background-color: #FFFFFF; /* Old browsers */ /* FF3.6+ */
 	background-image: -webkit-linear-gradient(top, #E9E9E9 0%, #FFFFFF 100%);
 	background-image: linear-gradient(to bottom, #E9E9E9 0%,#FFFFFF 100%); /* W3C */
@@ -617,7 +617,7 @@ Colours and backgrounds for buttons.css
 .button-secondary:hover,
 .button:focus .icon,
 .button:hover .icon {
-	color: #00885B;
+	color: #0958A8;
 }
 
 .button-search:hover,
@@ -796,7 +796,7 @@ ul.cplist {
 
 .tabs .tab > a:hover {
 	background: #DDEDF8;
-	color: #089277;
+	color: #0958A8;
 }
 
 .tabs .activetab > a,
@@ -853,7 +853,7 @@ ul.cplist {
 
 .navigation a:hover {
 	background: #DDEDFB;
-	color: #089277;
+	color: #0958A8;
 }
 
 .navigation .active-subsection a {
@@ -862,7 +862,7 @@ ul.cplist {
 }
 
 .navigation .active-subsection a:hover {
-	color: #089277;
+	color: #0958A8;
 }
 
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
@@ -1011,11 +1011,11 @@ input.inputbox, fieldset.quick-login input.inputbox {
 }
 
 .inputbox:hover {
-	border-color: #00885B;
+	border-color: #0958A8;
 }
 
 .inputbox:focus {
-	border-color: #00885B;
+	border-color: #0958A8;
 }
 
 .inputbox:focus:-moz-placeholder {
@@ -1068,7 +1068,7 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, inpu
 
 /* Focus states */
 input.button1:focus, input.button2:focus, input.button3:focus {
-	border-color: #00885B;
+	border-color: #0958A8;
 	color: #0F4987;
 }
 
@@ -1170,7 +1170,7 @@ ADDED CSS selectors for prosilver-lm
 
 .navbar .rightside { color: #ABABAB; }
 .navbar a, .navbar a:hover, .navbar .breadcrumbs .crumb { color: #FFFFFF; font-weight: bold; }
-.navbar .dropdown a { color: #089277; }
+.navbar .dropdown a { color: #0958A8; }
 
 #page-header { background-color: transparent; background-image: none; }
 
