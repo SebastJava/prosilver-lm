@@ -5,7 +5,7 @@ Colours and backgrounds for common.css
 
 html, body {
 	color: #303030;
-	background-color: #F0F0F0;
+	background-color: #E8E8E8;
 }
 
 h1 {
@@ -1185,7 +1185,7 @@ ADDED CSS selectors for prosilver-lm
 }
 #page-header ul.navlinks { border-top-color: rgba(255, 255, 255, 0.5); }
 
-.post.bg1 { background-color: #EFFFEF; }
+.post.bg1 { background-color: #FFF; }
 .post.bg2 { background-color: #FFF; }
 
 dl.file, dl.thumbnail { background-color: #F8F8F8; }
