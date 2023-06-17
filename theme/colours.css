@@ -103,7 +103,7 @@ a:hover { color: #0958A8; }
 }
 
 .panel {
-	background-color: #E3FFE3;
+	background-color: #E3FFEC;
 	color: #303030;
 }
 
@@ -125,7 +125,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #E3FFE3;
+	background-color: #E3FFEC;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
@@ -133,7 +133,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .bg3 {
-	background-color: #E3FFE3;
+	background-color: #E3FFEC;
 }
 
 .ucprowbg {
@@ -334,7 +334,7 @@ ul.topiclist dd {
 
 li.row {
 	border-top-color: #FFFFFF;
-	border-bottom-color: #AAEEAA;
+	border-bottom-color: #AAEECC;
 }
 
 li.row strong {
@@ -346,7 +346,7 @@ li.row:hover {
 }
 
 li.row dd {
-	border-left-color: #AAEEAA;
+	border-left-color: #AAEECC;
 }
 
 li.row:hover dd {
@@ -354,7 +354,7 @@ li.row:hover dd {
 }
 
 .rtl li.row dd {
-	border-right-color: #AAEEAA;
+	border-right-color: #AAEECC;
 	border-left-color: transparent;
 }
 
@@ -801,7 +801,7 @@ ul.cplist {
 
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
-	background-color: #E3FFE3;
+	background-color: #E3FFEC;
 	background-image: none;
 	border-color: lightgray;
 	border-bottom: none;
