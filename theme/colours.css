@@ -5,7 +5,7 @@ Colours and backgrounds for common.css
 
 html, body {
 	color: #303030;
-	background-color: #F0F0F0;
+	background-color: #E8E8E8;
 }
 
 h1 {
@@ -31,8 +31,8 @@ hr {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: #089277; font-weight: bold; }
-a:hover { color: #089277; }
+a { color: #0958A8; }
+a:hover { color: #0958A8; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -93,17 +93,17 @@ a:hover { color: #089277; }
 }
 
 .forumbg {
-	background-color: #35B68B;
+	background-color: #2FB99D;
 	background-image: none;
 }
 
 .forabg {
-	background-color: #35B68B;
+	background-color: #2FB99D;
 	background-image: none;
 }
 
 .panel {
-	background-color: #E3FFE3;
+	background-color: #E3FFEC;
 	color: #303030;
 }
 
@@ -125,7 +125,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #E3FFE3;
+	background-color: #E3FFEC;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
@@ -133,7 +133,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .bg3 {
-	background-color: #E3FFE3;
+	background-color: #E3FFEC;
 }
 
 .ucprowbg {
@@ -334,7 +334,7 @@ ul.topiclist dd {
 
 li.row {
 	border-top-color: #FFFFFF;
-	border-bottom-color: #AAEEAA;
+	border-bottom-color: #AAEECC;
 }
 
 li.row strong {
@@ -346,7 +346,7 @@ li.row:hover {
 }
 
 li.row dd {
-	border-left-color: #AAEEAA;
+	border-left-color: #AAEECC;
 }
 
 li.row:hover dd {
@@ -354,7 +354,7 @@ li.row:hover dd {
 }
 
 .rtl li.row dd {
-	border-right-color: #AAEEAA;
+	border-right-color: #AAEECC;
 	border-left-color: transparent;
 }
 
@@ -600,7 +600,7 @@ Colours and backgrounds for buttons.css
 
 .button:hover,
 .button:focus {
-	border-color: #00885B;
+	border-color: #0958A8;
 	background-color: #FFFFFF; /* Old browsers */ /* FF3.6+ */
 	background-image: -webkit-linear-gradient(top, #E9E9E9 0%, #FFFFFF 100%);
 	background-image: linear-gradient(to bottom, #E9E9E9 0%,#FFFFFF 100%); /* W3C */
@@ -617,7 +617,7 @@ Colours and backgrounds for buttons.css
 .button-secondary:hover,
 .button:focus .icon,
 .button:hover .icon {
-	color: #00885B;
+	color: #0958A8;
 }
 
 .button-search:hover,
@@ -796,12 +796,12 @@ ul.cplist {
 
 .tabs .tab > a:hover {
 	background: #DDEDF8;
-	color: #089277;
+	color: #0958A8;
 }
 
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
-	background-color: #E3FFE3;
+	background-color: #E3FFEC;
 	background-image: none;
 	border-color: lightgray;
 	border-bottom: none;
@@ -853,7 +853,7 @@ ul.cplist {
 
 .navigation a:hover {
 	background: #DDEDFB;
-	color: #089277;
+	color: #0958A8;
 }
 
 .navigation .active-subsection a {
@@ -862,7 +862,7 @@ ul.cplist {
 }
 
 .navigation .active-subsection a:hover {
-	color: #089277;
+	color: #0958A8;
 }
 
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
@@ -1011,11 +1011,11 @@ input.inputbox, fieldset.quick-login input.inputbox {
 }
 
 .inputbox:hover {
-	border-color: #00885B;
+	border-color: #0958A8;
 }
 
 .inputbox:focus {
-	border-color: #00885B;
+	border-color: #0958A8;
 }
 
 .inputbox:focus:-moz-placeholder {
@@ -1068,7 +1068,7 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, inpu
 
 /* Focus states */
 input.button1:focus, input.button2:focus, input.button3:focus {
-	border-color: #00885B;
+	border-color: #0958A8;
 	color: #0F4987;
 }
 
@@ -1168,24 +1168,23 @@ li.notification-reported strong, li.notification-disapproved strong {
 ADDED CSS selectors for prosilver-lm
 -------------------------------------------------------------- */
 
-.navbar .rightside { color: #ABABAB; }
+.navbar .rightside { color: #FFFFFF; }
 .navbar a, .navbar a:hover, .navbar .breadcrumbs .crumb { color: #FFFFFF; font-weight: bold; }
-.navbar .dropdown a { color: #089277; }
+.navbar .dropdown a { color: #0958A8; }
 
 #page-header { background-color: transparent; background-image: none; }
 
 #headerbar-background { background: linear-gradient(90deg, #69B53F 0%, #2AB9A5 100%); }
 #headerbar-wrap { background-image: url("./images/banner-v6.svg"); }
 
-#navbar-background { background: linear-gradient(90deg, #69B53F 0%, #2AB9A5 100%); }
-.navbar { background-color: #404040; background-image: none;}
+#navbar-background, .navbar { background: linear-gradient(90deg, #69B53F 0%, #2AB9A5 100%); }
 #page-header .navbar {
 	background-color: transparent; background-image: none;
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 #page-header ul.navlinks { border-top-color: rgba(255, 255, 255, 0.5); }
 
-.post.bg1 { background-color: #EFFFEF; }
+.post.bg1 { background-color: #FFF; }
 .post.bg2 { background-color: #FFF; }
 
 dl.file, dl.thumbnail { background-color: #F8F8F8; }
