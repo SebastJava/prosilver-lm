@@ -103,7 +103,7 @@ a:hover { color: #0958A8; }
 }
 
 .panel {
-	background-color: #E3FFEC;
+	background-color: #EFFFEF;
 	color: #303030;
 }
 
@@ -125,7 +125,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #E3FFEC;
+	background-color: #EFFFEF;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
@@ -133,7 +133,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .bg3 {
-	background-color: #E3FFEC;
+	background-color: #EFFFEF;
 }
 
 .ucprowbg {
@@ -412,7 +412,7 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background-color: #E3FFEC;
+	background-color: #EFFFEF;
 	border-color: #2FB99D;
 }
 
@@ -423,7 +423,7 @@ blockquote blockquote {
 
 blockquote blockquote blockquote {
 	/* Nested quotes */
-	background-color: #E3FFEC;
+	background-color: #EFFFEF;
 }
 
 /* Code block */
@@ -806,7 +806,7 @@ ul.cplist {
 
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
-	background-color: #E3FFEC;
+	background-color: #EFFFEF;
 	background-image: none;
 	border-color: lightgray;
 	border-bottom: none;
