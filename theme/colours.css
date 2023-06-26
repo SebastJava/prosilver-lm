@@ -795,12 +795,12 @@ ul.cplist {
 /* CP tabbed menu
 ----------------------------------------*/
 .tabs .tab > a {
-	background: #BACCD9;
+	background: #D8D8D8;
 	color: #536482;
 }
 
 .tabs .tab > a:hover {
-	background: #DDEDF8;
+	background: #FFFFFF;
 	color: #0958A8;
 }
 
@@ -846,7 +846,7 @@ ul.cplist {
 /* Link styles for the sub-section links */
 .navigation a {
 	color: #303030;
-	background: #BACCD9;
+	background: #D1F8DE;
 }
 
 .rtl .navigation a {
@@ -857,7 +857,7 @@ ul.cplist {
 }
 
 .navigation a:hover {
-	background: #DDEDFB;
+	background: #FFFFFF;
 	color: #0958A8;
 }
 
