@@ -21,6 +21,8 @@ This Prosilver-lm being just a small child theme, this means it can easily and q
 
 This is a forum showcase, powered by phpBB and featuring this Prosilver-lm. But that's only for a limited time. This website is just a temporary one and will probably be deleted on Jan 21, 2024.
 
+But [What's Wrong With Minty ?](Whats-Wrong-With-Minty.md) Click to read all about it... And come back here to see how this Prosilver-lm is made better.
+
 ### Design improvements: colours and contrasts
 
 > A contrast ratio of 3:1 is the minimum level recommended by [ISO-9241-3] and [ANSI-HFES-100-1988] for standard text and vision. The 4.5:1 ratio is used in this provision to account for the loss in contrast that results from moderately low visual acuity, congenital or acquired color deficiencies, or the loss of contrast sensitivity that typically accompanies aging.
