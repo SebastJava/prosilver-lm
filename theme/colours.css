@@ -4,7 +4,7 @@ Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 
 html, body {
-	color: #303030;
+	color: #202020;
 	background-color: #E8E8E8;
 }
 
@@ -13,12 +13,12 @@ h1 {
 }
 
 h2 {
-	color: #303030;
+	color: #202020;
 }
 
 h3 {
 	border-bottom-color: #CCCCCC;
-	color: #303030;
+	color: #202020;
 }
 
 hr {
@@ -76,7 +76,7 @@ a:hover { color: #0958A8; }
 
 /* Arrow links  */
 .arrow-left:hover, .arrow-right:hover {
-	color: #303030;
+	color: #202020;
 }
 
 /* Round cornered boxes and backgrounds
@@ -104,11 +104,11 @@ a:hover { color: #0958A8; }
 
 .panel {
 	background-color: #EFFFEF;
-	color: #303030;
+	color: #202020;
 }
 
 .post:target .content {
-	color: #303030;
+	color: #202020;
 }
 
 .post h3 a.first-unread,
@@ -167,7 +167,7 @@ table.table1 tbody tr {
 
 table.table1 tbody tr:hover, table.table1 tbody tr.hover {
 	background-color: #F8F8F8;
-	color: #303030;
+	color: #202020;
 }
 
 table.table1 td {
@@ -180,7 +180,7 @@ table.table1 tbody td {
 
 table.table1 tbody th {
 	border-bottom-color: #000000;
-	color: #303030;
+	color: #202020;
 	background-color: #FFFFFF;
 }
 
@@ -195,7 +195,7 @@ dl.details dt {
 }
 
 dl.details dd {
-	color: #303030;
+	color: #202020;
 }
 
 .sep {
@@ -233,7 +233,7 @@ dl.details dd {
 }
 
 .icon.icon-black, a:hover .icon.icon-black {
-	color: #303030;
+	color: #202020;
 }
 
 .alert_close .icon:before {
@@ -320,7 +320,7 @@ ul.forums {
 }
 
 ul.topiclist li {
-	color: #303030;
+	color: #202020;
 }
 
 ul.topiclist dd {
@@ -371,22 +371,22 @@ li.header dt, li.header dd {
 /* Post body styles
 ----------------------------------------*/
 .postbody {
-	color: #303030;
+	color: #202020;
 }
 
 /* Content container styles
 ----------------------------------------*/
 .content {
-	color: #303030;
+	color: #202020;
 }
 
 .content h2, .panel h2 {
-	color: #303030;
+	color: #202020;
 	border-bottom-color: #CCCCCC;
 }
 
 dl.faq dt {
-	color: #303030;
+	color: #202020;
 }
 
 .posthilit {
@@ -783,8 +783,8 @@ ul.cplist {
 }
 
 .panel-container table.table1 thead th {
-	color: #303030;
-	border-bottom-color: #303030;
+	color: #202020;
+	border-bottom-color: #202020;
 }
 
 .cp-main .pm-message {
@@ -811,11 +811,11 @@ ul.cplist {
 	border-color: lightgray;
 	border-bottom: none;
 	box-shadow: none;
-	color: #303030;
+	color: #202020;
 }
 
 .tabs .activetab > a:hover {
-	color: #303030;
+	color: #202020;
 }
 
 /* Mini tabbed menu used in MCP
@@ -827,7 +827,7 @@ ul.cplist {
 .minitabs .activetab > a,
 .minitabs .activetab > a:hover {
 	background-color: #F9F9F9;
-	color: #303030;
+	color: #202020;
 }
 
 /* Responsive tabs
@@ -845,7 +845,7 @@ ul.cplist {
 
 /* Link styles for the sub-section links */
 .navigation a {
-	color: #303030;
+	color: #202020;
 	background: #D1F8DE;
 }
 
@@ -863,7 +863,7 @@ ul.cplist {
 
 .navigation .active-subsection a {
 	background: #8FEFAF;
-	color: #303030;
+	color: #202020;
 }
 
 .navigation .active-subsection a:hover {
@@ -880,7 +880,7 @@ ul.cplist {
 /* Preferences pane layout
 ----------------------------------------*/
 .panel-container h2 {
-	color: #303030;
+	color: #202020;
 }
 
 .panel-container .panel {
@@ -988,7 +988,7 @@ input.inputbox, fieldset.quick-login input.inputbox {
 ----------------------------------------*/
 
 .message-box textarea {
-	color: #303030;
+	color: #202020;
 }
 
 .message-box textarea.drag-n-drop {
@@ -1004,15 +1004,15 @@ input.inputbox, fieldset.quick-login input.inputbox {
 .inputbox {
 	background-color: #FFFFFF;
 	border-color: #B4BAC0;
-	color: #303030;
+	color: #202020;
 }
 
 .inputbox:-moz-placeholder {
-	color: #303030;
+	color: #202020;
 }
 
 .inputbox::-webkit-input-placeholder {
-	color: #303030;
+	color: #202020;
 }
 
 .inputbox:hover {
@@ -1102,7 +1102,7 @@ input.disabled {
 
 .dropdown-extended ul li:hover {
 	background-color: #F8F8F8;
-	color: #303030;
+	color: #202020;
 }
 
 .dropdown-extended .header, .dropdown-extended .footer {
