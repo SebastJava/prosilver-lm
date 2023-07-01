@@ -29,6 +29,8 @@ h1, h2, h3 { font-weight: bold; }
 .action-bar .button { height: 24px; box-sizing: border-box; }
 /* ▲ BUG FIX: make sure every action-bar button is at the same height as ".search-box .inputbox" */
 
+.page-footer { margin-top: 12px; }
+
 /* content.css__________________________________________________________________________________________*/
 
 .postprofile .profile-posts a { font-weight: bold; }
