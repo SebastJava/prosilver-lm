@@ -24,9 +24,8 @@ h1, h2, h3 { font-weight: bold; }
     site_logo height = 216×402÷1724 = 50.367 px  */
 .logo, .site_logo { width: 400px; height: 58px; }
 
-.post, .panel { margin-bottom: 12px; }
-.panel { margin-top: 12px; }
-.action-bar { margin: 4px 0 12px 0; }
+.post, .panel { margin-top: 12px; margin-bottom: 12px; }
+
 .action-bar .button { height: 24px; box-sizing: border-box; }
 /* ▲ BUG FIX: make sure every action-bar button is at the same height as ".search-box .inputbox" */
 
