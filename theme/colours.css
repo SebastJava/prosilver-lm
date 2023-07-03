@@ -258,23 +258,23 @@ dl.details dd {
 }
 
 .jumpbox-forum-link {
-	background-color: #E1EBF2;
+	background-color: #D1F8DE;
 }
 
 .jumpbox-forum-link:hover {
-	background-color: #F6F4D0;
+	background-color: #EFFFEF;
 }
 
 .jumpbox .dropdown .pointer-inner {
-	border-color: #E1EBF2 transparent;
+	border-color: #D1F8DE transparent;
 }
 
 .jumpbox-sub-link {
-	background-color: #E1EBF2;
+	background-color: #D1F8DE;
 }
 
 .jumpbox-sub-link:hover {
-	background-color: #F1F8FF;
+	background-color: #EFFFEF;
 }
 
 /* Miscellaneous styles
@@ -821,7 +821,7 @@ ul.cplist {
 /* Mini tabbed menu used in MCP
 ----------------------------------------*/
 .minitabs .tab > a {
-	background-color: #E1EBF2;
+	background-color: #D1F8DE;
 }
 
 .minitabs .activetab > a,
