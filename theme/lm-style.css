@@ -8,6 +8,12 @@
 	------------------------------------------------------------------------
 */
 
+/* FONT FIX: The standard prosilver theme from phpBB did not include any font for LinuxMint.____________*/
+
+h1,h2,.postbody h3,h4,.content,.content p,dl.faq,fieldset.polls,textarea,.message-box textarea,a.forumtitle,a.topictitle {
+	font-family: Ubuntu, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
 /* common.css___________________________________________________________________________________________*/
 
 body { padding: 0px 0px 12px 0px; }
@@ -79,7 +85,6 @@ img.postimage { display: block; margin-left: auto; margin-right: auto; }
 .signature img.postimage { display: inline-block; }
 dl.file, dl.thumbnail { text-align: center; }
 .thumbnail a { display: block; }
-
 
 /* FORUM ICONS & TOPIC ICONS____________________________________________________________________________*/
 
