@@ -14,8 +14,8 @@ h1,h2,.postbody h3,h4,.content,.content p,dl.faq,fieldset.polls,textarea,.messag
 	font-family: Ubuntu, "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 a.forumtitle,a.topictitle {	font-size: 1.3em; }
-h1,h2 { font-size: 2.67em; }
-.postbody h3.first { font-size: 2em; }
+h1,h2 { font-size: 2em; }
+.postbody h3.first { font-size: 1.5em; }
 
 h1, h2 { font-weight: normal; }
 
