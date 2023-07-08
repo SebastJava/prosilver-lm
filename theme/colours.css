@@ -428,17 +428,18 @@ blockquote blockquote blockquote {
 
 /* Code block */
 .codebox {
-	background-color: #404040;
-	border-color: #000000;
+	background-color: #303030;
+	border-color: #000;
 	color: #2AD47F;
 }
 
 .codebox a {
-	color: #3DB8F5;
+	color: #55C7FF;
 }
 
 .codebox p {
-	border-bottom-color: #808080;
+	background-color: #000;
+	border-bottom-color: #000;
 }
 
 .codebox code {
