@@ -58,11 +58,13 @@ a:hover { color: #009073; font-weight: bold; }
 .postlink:visited {
 	border-bottom-color: #004CE4;
 	color: #004CE4;
+	font-weight: normal;
 }
 
 .postlink:hover {
 	background-color: #E4EDFF;
 	color: #202020;
+	font-weight: normal;
 }
 
 .signature a, .signature a:hover {
