@@ -1182,10 +1182,10 @@ ADDED CSS selectors for prosilver-lm
 
 #page-header { background-color: transparent; background-image: none; }
 
-#headerbar-background { background: linear-gradient(90deg, #69B53F 0%, #2AB9A5 100%); }
-#headerbar-wrap { background-image: url("./images/banner-v6.svg"); }
+#headerbar-background { background: linear-gradient(0deg, #2AB9A5 5%, #69B53F 85%); }
+#headerbar-wrap { background-image: url("./images/banner-v6.svg"); background-repeat: no-repeat; }
 
-#navbar-background, .navbar { background: linear-gradient(90deg, #69B53F 0%, #2AB9A5 100%); }
+.navbar { background-color: #2FB99D; background-image: none; }
 #page-header .navbar {
 	background-color: transparent; background-image: none;
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
