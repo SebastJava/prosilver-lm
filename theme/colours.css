@@ -414,7 +414,7 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background-color: #EFFFEF;
+	background-color: #E7FFE7;
 	border-color: #2FB99D;
 }
 
@@ -425,7 +425,7 @@ blockquote blockquote {
 
 blockquote blockquote blockquote {
 	/* Nested quotes */
-	background-color: #EFFFEF;
+	background-color: #E7FFE7;
 }
 
 /* Code block */
