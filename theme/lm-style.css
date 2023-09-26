@@ -10,11 +10,32 @@
 
 /* FONT FIX: The standard prosilver theme from phpBB did not include any font for LinuxMint.____________*/
 
-h1,h2,.postbody h3,h4,.content,.content p,dl.faq,fieldset.polls,textarea,.message-box textarea,a.forumtitle,a.topictitle {
-	font-family: Ubuntu, "Trebuchet MS", Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: Ubuntu;
+  src: url(Ubuntu/Ubuntu-Regular.woff2);
 }
+@font-face {
+  font-family: Ubuntu;
+  src: url(Ubuntu/Ubuntu-Bold.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url(Ubuntu/Ubuntu-Italic.woff2);
+  font-style: italic;
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url(Ubuntu/Ubuntu-BoldItalic.woff2);
+  font-weight: bold; font-style: italic;
+}
+
+body, a, a.forumtitle, a.topictitle, * {font-family: Ubuntu, 'Liberation Sans', Arial, Helvetica, sans-serif;}
+.icon, .button .icon {font-family: FontAwesome, sans-serif;}
+code, kbd, pre, samp {font-family: monospace;}
+
 a.forumtitle,a.topictitle {	font-size: 1.3em; }
-h1,h2 { font-size: 2em; }
+h1, h2 { font-size: 2em; }
 .postbody h3.first { font-size: 1.5em; }
 
 h1, h2 { font-weight: normal; }
