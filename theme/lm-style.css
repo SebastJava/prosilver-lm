@@ -30,11 +30,11 @@
   font-weight: bold; font-style: italic;
 }
 
-body, a, a.forumtitle, a.topictitle, * {font-family: Ubuntu, 'Liberation Sans', Arial, Helvetica, sans-serif;}
-.icon, .button .icon {font-family: FontAwesome, sans-serif;}
-code, kbd, pre, samp {font-family: monospace;}
+body, a, a.forumtitle, a.topictitle, * { font-family: Ubuntu, 'Liberation Sans', Arial, Helvetica, sans-serif; }
+.icon, .button .icon { font-family: FontAwesome, sans-serif; }
+code, kbd, pre, samp { font-family: monospace; }
 
-a.forumtitle,a.topictitle {	font-size: 1.3em; }
+a.forumtitle, a.topictitle {	font-size: 1.3em; }
 h1, h2 { font-size: 2em; }
 .postbody h3.first { font-size: 1.5em; }
 
@@ -74,7 +74,8 @@ blockquote { border-style: solid; border-width: 0 0 0 12px; padding-left: 12px; 
 /* forms.css____________________________________________________________________________________________*/
 
 .search-header { margin: 42px 0px 0px 0px; }
-input.button2 {border-radius: 4px;}
+input.button2 { border-radius: 4px; }
+a.button1, input.button1, input.button3, a.button2, input.button2 { padding-top: 2px; }
 
 /* links.css____________________________________________________________________________________________*/
 
