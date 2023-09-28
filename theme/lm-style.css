@@ -30,9 +30,11 @@
   font-weight: bold; font-style: italic;
 }
 
-body, a, a.forumtitle, a.topictitle, * { font-family: Ubuntu, 'Liberation Sans', Arial, Helvetica, sans-serif; }
-.icon, .button .icon { font-family: FontAwesome, sans-serif; }
-code, kbd, pre, samp { font-family: monospace; }
+* { font-family: Ubuntu, 'Liberation Sans', Arial, Helvetica, sans-serif !important; }
+
+a.header-avatar span:after { font: normal normal normal 14px/1 FontAwesome !important; }
+.icon, .button .icon, blockquote cite:before, .uncited:before { font-family: FontAwesome !important; }
+.codebox code, code, kbd, pre, samp { font-family: monospace !important; }
 
 a.forumtitle, a.topictitle {	font-size: 1.3em; }
 h1, h2 { font-size: 2em; }
