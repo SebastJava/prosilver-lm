@@ -1,6 +1,8 @@
 # Prosilver-lm: phpBB theme for LinuxMint
 
-**WARNING: The contents you get here may not match what you see on the web site. Please [Check branches](https://github.com/SebastJava/prosilver-lm/branches) for the latest version.**
+**Development is on hold. I started again on a lighter basis, only in CSS, and usable by everyone, on a daily basis, on the Linux Mint Forums. The adventure continues here:** https://github.com/SebastJava/FreshMint
+
+---
 
 ![preview/Minty-vs-ProS-lm-v14-1](preview/Minty-vs-ProS-lm-v14-1.png)
 ▲ *Minty versus Prosilver-lm-v14.1 (This is possibly not the latest version.)*
